@@ -1,0 +1,106 @@
+<html lang="en">
+
+<!-- 
+    _  _____ _____ ___ _____ _   _ ____  _____    ____ _   _ _____ ____ _  __
+   / \|_   _|_   _|_ _|_   _| | | |  _ \| ____|  / ___| | | | ____/ ___| |/ /
+  / _ \ | |   | |  | |  | | | | | | | | |  _|   | |   | |_| |  _|| |   | ' / 
+ / ___ \| |   | |  | |  | | | |_| | |_| | |___  | |___|  _  | |__| |___| . \ 
+/_/   \_\_|   |_| |___| |_|  \___/|____/|_____|  \____|_| |_|_____\____|_|\_\ -->                                                                  
+
+<head>
+    <title>{{ site.title }}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="The Rocky Horror Picture Show,Rocky Horror,Rocky Horror Picture Show,RHPS,Shock Treatment,Bawdy Caste,bawdycaste,The Bawdy Caste, The Big Lebowski">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Rocky Horror with the Bawdy Caste">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bawdycaste.com">
+    <meta property="og:image" content="https://bawdycaste.com/images/facebook-header.jpg">
+    <meta property="og:description" content="San Francisco's Rocky Horror Picture Show Shadow Cast">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+
+    {% if jekyll.environment == "production" %}
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '306771053392990');
+            fbq('track', 'PageView');
+            </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=306771053392990&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W0FMM6W3XX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W0FMM6W3XX');
+        </script>
+    {% endif %}
+    
+</head>
+
+<body class="container d-flex flex-column h-100" style="min-height:fit-content;">
+
+    {% include nav.html %}
+
+    {{content}}
+
+   {% include footer.html %}
+
+    
+
+    <script src="https://email.tl.fortawesome.com/c/eJxNjUEOwiAURE9TluQD5QMLFlXbe1DAUNNKUzCNtxddmZnV5OVNsCFiiIoslgNT8A1IIzg1AqWgo9HsepsMDuaiR6W7HupK7_mo7owlb5H6vJFkZ2TRIPZc9o4hSgTBlACvFAPjoiarTbXupRNDx6fWV4lN8_zXtNV4p8FLLjl9FHJYn46l1LyneLTn2Z3h7V2pP_wDAVU3xg "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script type="application/ld+json ">
+        {
+            "@context ": "https://schema.org ",
+            "@type ": "Organization ",
+            "@id ": "https://bawdycaste.com ",
+            "url ": "https://bawdycaste.com ",
+            "name ": "The Bawdy Caste ",
+            "contactPoint ": {
+                "@type ": "ContactPoint ",
+                "telephone ": "+1-650-762-5921",
+                "contactType ": "Show and Booking Information "
+            }
+        }
+    </script>
+
+    <script src="{{ 'assets/main.js' | relative_url }}"></script>
+
+</body>
+
+<!-- 
+_____ _   _  ____ _  __ __   _____  _   _ 
+|  ___| | | |/ ___| |/ / \ \ / / _ \| | | |
+| |_  | | | | |   | ' /   \ V / | | | | | |
+|  _| | |_| | |___| . \    | || |_| | |_| |
+|_|    \___/ \____|_|\_\   |_| \___/ \___/ -->
+                                           
+</html>
