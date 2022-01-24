@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "rhoem1",
+      "name": "Robert Hoem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3144597?v=4",
+      "profile": "https://github.com/rhoem1",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "bawdycaste.com",
+  "projectOwner": "bawdycaste",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
