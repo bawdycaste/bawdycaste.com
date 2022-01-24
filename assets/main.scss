@@ -37,12 +37,17 @@
     src: url("/assets/fonts/SS.ttf") format("truetype");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
 body {
     background-color:grey;
     background-image: linear-gradient(to left, rgba(192, 12, 8, 0.759), rgba(43, 36, 108, 0.866));
     background-size: cover;
     background-position: center;
     color: rgba(225, 0, 0, .97);
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 
@@ -65,7 +70,7 @@ body {
 	}
 }
 
-p{font-size: 1.62em;}
+p{font-size: 1rem;}
 
 .fofbb{font-family: "fofbb";}
 .ss {font-family: "ss";}
@@ -74,6 +79,7 @@ p{font-size: 1.62em;}
 .sbitn {font-family: "sbitn";}
 .TBL {font-family: "TBL";z-index: 2;}
 .TBL_1 {font-family: "TBL_1";z-index: 2;}
+.font-hl{font-family: 'Atkinson Hyperlegible', sans-serif;}
 
 .social a {
     font-size: 1.69em;
