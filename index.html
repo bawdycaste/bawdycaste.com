@@ -1,17 +1,16 @@
 ---
 layout: default
-show_date: 2021-11-27
-time_doors: "10:30"
-time_preshow: "11:30"
+show_date: 2022-01-29
+time_doors: "22:30:00"
+time_preshow: "23:30:0"
 time_show: "MIDNIGHT"
 fb_link: 'https://fb.me/e/GSARHVBz'
 ticket_link: 'https://balboa-theater.squarespace.com/calendar-of-events/the-rocky-horror-picture-show-1-5twrs'
-next-show: FRIDAY DECEMBER 31ST
 ---
 
 <header class="header text-center text-light p-1">
     <h1 style="font-size: 2.7rem;" class="fofbb">
-        <span class="ss" style="font-size: 3rem; text-transform: uppercase; text-rendering: optimizeLegibility;">Bawdy Caste</span> presents: <br>
+        <span class="ss" style="font-size: 3rem; text-transform: uppercase;text-rendering: optimizeLegibility;">Bawdy Caste</span> presents: <br>
         <span class="df text-red" style="text-shadow: 4px 4px white;">THE ROCKY HORROR PICTURE SHOW</span>
     </h1>
 </header>
@@ -27,26 +26,25 @@ next-show: FRIDAY DECEMBER 31ST
 </div>
 
 <div class="row">
-    <div class="col bg-dark rounded text-center">
-                        <h3>THERE WILL BE NO LIVE SHADOW CAST PERFORMANCE AT THIS SHOW DUE IN PART TO GROWING CONCERN OF OMICRON VARIANT</h3>
-                <h4>PARTICIPATION KITS WILL BE PROVIDED AT NO COST, AND THE SHOW WILL BEGIN WITH DANCE PARTY ATMOSPHERE, MIDNIGHT COUNTDOWN, AS WELL AS AN ADJUSTED VERSION OF OUR PRESHOW</h4>
+    <div class="col text-light text-center">
+        <p>There will not be a live shadow cast performance in Janurary.</p>
+        <p>The cast will do a <em>semi-traditional</em> preshow, and audience participation is still encouraged.<br>Everybody must show proof of vaccination. You are expected to wear your mask at all times.<br>If you are eating/drinking you are expected to wear your mask in between bites.</p>
     </div>
 </div>
-
-<div class="row row-cols-1 text-center mb-3 mb-lg-0 bg-dark rounded-3 p-3 m-0">
-    <div class="col text-center">
+<div class="row row-cols-1 text-center mb-3 mb-lg-0  p-3 m-0">
+    <div class="col border border-4 border-dark rounded p-2 text-center">
         <h2 class="mb-4 f13">the cult classic movie with full <u>audience participation</u> experience!</h2>
-        <h2 class="fs-2 mb-4 f13">Next Show: <span class="fw-bold">{{page.next-show}}<br></span> New Year's Eve at the <a target="_blank" rel="noopener noreferrer" class="text-red fs-1" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2>
+        <h2 class="fs-2 mb-4 f13">Our Next Show is <span class="df fs-1 text-dark">{{ page.show_date | date: "%a %b %e, %Y" }}</span> at the <a target="_blank" rel="noopener noreferrer" class="link-dark TBL fs-1" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2>
         <div class="row align-items-center">
             <div class="col">
                 <table class="table text-light table-borderless table-sm fofbb text-red text-nowrap table-responsive fs-2">
                     <tr>
                         <td class="text-end">Doors @</td>
-                        <td>{{page.time_doors}}</td>
+                        <td>{{page.time_doors | date: "%I:%M %p"}}</td>
                     </tr>
                     <tr>
                         <td class="text-end">Preshow @</td>
-                        <td>{{page.time_preshow}}</td>
+                        <td>{{page.time_preshow | date: "%I:%M %p"}}</td>
                     </tr>
                     <tr>
                         <td class="text-end">Showtime @</td>
@@ -54,10 +52,8 @@ next-show: FRIDAY DECEMBER 31ST
                 </table>
             </div>
             <div class="col">
-                <div class="btn-group form-control" style="background-color:rgba(0, 0, 0, 0); border:0;" role="group">
-                    <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger  f13" href="{{page.ticket_link}}">tickets</a>
+                    <a target="_blank" rel="noopener noreferrer" class="w-50 btn btn-lg btn-danger f13" href="{{page.ticket_link}}">tickets</a>
                     <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="{{page.fb_link}}">FB Event</a>
-                </div>
             </div>
         </div>
     </div>
