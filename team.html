@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bawdy Caste Admin Team
+permalink: /adminteam
 ---
 
 <div class="row">
@@ -12,14 +13,14 @@ title: Bawdy Caste Admin Team
 <div class="row row-cols-1 row-cols-lg-2">
     {% for councilor in site.data.adminteam %}
     <div class="col p-3 {% if councilor.name == "[none]" %}d-none{%endif%}">
-        <div class="row bg-dark text-light border border-2 border-danger p-1 rounded">
+        <div class="row bg-dark text-light border border-3 border-secondary p-1 rounded">
             <div class="col col-4">
-                <img src="{{councilor.photo}}" alt="{{councilor.name}}" class="img-fluid rounded">
+                <img src="{{councilor.photo}}" alt="{{councilor.name}}" class="img-fluid">
             </div>
             <div class="col col-8">
                 <h4 class="card-title">{{councilor.name}}&nbsp;<span class="fw-normal text-muted">{{councilor.pronouns}}</span></h4>
                 <h5>{{councilor.position}}</h5>
-                <p><a href="mailto:{{councilor.email}}">{{councilor.email}}</a></p>
+                <p><a href="mailto:{{councilor.email}}" class="link-danger fw-bold">{{councilor.email}}</a></p>
                 <p>{{councilor.description}}</p>
             </div>
         </div>
