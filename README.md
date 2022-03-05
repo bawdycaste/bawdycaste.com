@@ -5,7 +5,6 @@
 
 hosted on github pages, built w/ [jekyll](https://jekyllrb.com/) and [bootstrap](https://getbootstrap.com).
 
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
