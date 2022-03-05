@@ -1,6 +1,6 @@
 # The Bawdy Caste Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 hosted on github pages, built w/ [jekyll](https://jekyllrb.com/) and [bootstrap](https://getbootstrap.com).
@@ -16,6 +16,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/rhoem1"><img src="https://avatars.githubusercontent.com/u/3144597?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robert Hoem</b></sub></a><br /><a href="https://github.com/bawdycaste/bawdycaste.com/commits?author=rhoem1" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/deglington"><img src="https://avatars.githubusercontent.com/u/17172392?v=4?s=100" width="100px;" alt=""/><br /><sub><b>deglington</b></sub></a><br /><a href="https://github.com/bawdycaste/bawdycaste.com/commits?author=deglington" title="Code">💻</a></td>
   </tr>
 </table>
 
