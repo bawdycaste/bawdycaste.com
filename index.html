@@ -1,11 +1,11 @@
 ---
 layout: default
-show_date: 2022-03-26
+show_date: 2022-04-36
 time_doors: "23:00:00"
 time_preshow: "23:30:0"
 time_show: "MIDNIGHT"
-fb_link: 'https://fb.me/e/38Lq0kZSW'
-ticket_link: 'https://ticketing.uswest.veezi.com/purchase/6262?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg'
+#fb_link: 'https://fb.me/e/38Lq0kZSW'
+#ticket_link: 'https://ticketing.uswest.veezi.com/purchase/6262?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg'
 ---
 
 <header class="header text-center text-light p-1">
@@ -58,8 +58,8 @@ ticket_link: 'https://ticketing.uswest.veezi.com/purchase/6262?siteToken=52wkfzm
                 </table>
             </div>
             <div class="col">
-                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger f13 m-1" href="{{page.ticket_link}}">tickets</a>
-                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13 m-1" href="{{page.fb_link}}">FB Event</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger f13 m-1 {% if page.ticket_link = blank %}disabled{% endif %}" href="{{page.ticket_link}}">tickets</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13 m-1 {% if page.fb_link = blank %}disabled{% endif %}" href="{{page.fb_link}}">FB Event</a>
             </div>
         </div>
     </div>
