@@ -1,11 +1,11 @@
 ---
 layout: default
-show_date: 2022-04-36
+show_date: 2022-04-30
 time_doors: "23:00:00"
 time_preshow: "23:30:0"
 time_show: "MIDNIGHT"
 #fb_link: 'https://fb.me/e/38Lq0kZSW'
-#ticket_link: 'https://ticketing.uswest.veezi.com/purchase/6262?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg'
+ticket_link: 'https://www.balboamovies.com/calendar-of-events/the-rocky-horror-picture-show-1-gkne6-fb6dd'
 ---
 
 <header class="header text-center text-light p-1">
@@ -15,15 +15,12 @@ time_show: "MIDNIGHT"
     </h1>
 </header>
 
-<div class="row text-center pb-2">
-    <div class="col col-4  mx-auto">
+<div class="row text-center">
+    <div class="col col-5  my-auto mx-auto">
         <img class="img-fluid" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/RHPSLogo_LipsFrank.png" alt="">
     </div>
-    <div class="col col-4 mx-auto">
+    <div class="col col-5 my-auto mx-auto">
         <img class="w-100" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/balboa.png" alt="balboa theatre logo, a sylizing drawing of the buildings marquee">
-    </div>
-    <div class="col col-4  mx-auto">
-        <img class="w-100" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/THE_BAWDY_CASTE_DARK.png" alt="balboa theatre logo, a sylizing drawing of the buildings marquee">
     </div>
 </div>
 
@@ -39,10 +36,10 @@ time_show: "MIDNIGHT"
                 </div>
             </h2>
         </div>
-        <h2 class="fs-2 mb-4 f13">Our Next Show is <br class="d-md-none">
-            <span class="df fs-1 text-light" style="-webkit-text-stroke: 3px black;text-rendering: optimizeLegibility;">{{ page.show_date | date: "%a %b %e, %Y" }}</span>
-            <br class="d-md-none">at the <br class="d-md-none">
-            <a target="_blank" rel="noopener noreferrer" class="link-light TBL fs-1" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2>
+        <h2 class="fs-2 mb-4 f13">Our Next Show is <br class="d-lg-none">
+            <span class="df display-4 text-light" style="-webkit-text-stroke: 3px black;text-rendering: optimizeLegibility;">{{ page.show_date | date: "%a %b %e, %Y" }}</span>
+            <br class="d-lg-none">at the <br class="d-lg-none">
+            <a target="_blank" rel="noopener noreferrer" class="link-light TBL display-4" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2>
         <div class="row align-items-center">
             <div class="col">
                 <table class="table text-light table-borderless table-sm fofbb text-red text-nowrap table-responsive fs-2">
@@ -60,9 +57,15 @@ time_show: "MIDNIGHT"
                 </table>
             </div>
             <div class="col">
-                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger f13 m-1 {% if page.ticket_link == blank %}disabled{% endif %}" href="{{page.ticket_link}}">tickets</a>
-                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13 m-1 {% if page.fb_link == blank %}disabled{% endif %}" href="{{page.fb_link}}">FB Event</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger f13 m-1 {% if page.ticket_link == !blank %}disabled{% endif %}" href="{{page.ticket_link}}">tickets</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13 m-1 {% if page.fb_link == !blank %}disabled{% endif %}" href="{{page.fb_link}}">FB Event</a>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col col-10 col-lg-4 mb-3 p-0 mx-auto">
+        <img class="w-100 rounded" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/THE_BAWDY_CASTE_DARK.png" alt="balboa theatre logo, a sylizing drawing of the buildings marquee">
     </div>
 </div>
