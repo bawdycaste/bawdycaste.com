@@ -17,7 +17,6 @@ time_show: "MIDNIGHT"
 
 <div class="row text-center pb-2">
     <div class="col col-4  mx-auto">
-        <!-- <img class="img-fluid" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/bc_logo2.gif" alt="bawdy caste logo, a leg wearing fishnets" style="width: 69%;"> -->
         <img class="img-fluid" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/RHPSLogo_LipsFrank.png" alt="">
     </div>
     <div class="col col-4 mx-auto">
@@ -61,8 +60,8 @@ time_show: "MIDNIGHT"
                 </table>
             </div>
             <div class="col">
-                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger f13 m-1 {% if page.ticket_link = blank %}disabled{% endif %}" href="{{page.ticket_link}}">tickets</a>
-                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13 m-1 {% if page.fb_link = blank %}disabled{% endif %}" href="{{page.fb_link}}">FB Event</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger f13 m-1 {% if page.ticket_link == blank %}disabled{% endif %}" href="{{page.ticket_link}}">tickets</a>
+                <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13 m-1 {% if page.fb_link == blank %}disabled{% endif %}" href="{{page.fb_link}}">FB Event</a>
             </div>
         </div>
     </div>
