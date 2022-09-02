@@ -76,7 +76,7 @@ ticket_link: "https://ticketing.uswest.veezi.com/purchase/7527?siteToken=52wkfzm
     <div class="alert alert-dark border border-4 border-dark p-1">
       <h2 class="alert-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
       <!-- <p class="lead">{{show.title}}</p> -->
-      <h3 class="text-center"><a href="{{show.link.venue}}" class="text-uppercase fw-bold link-danger" target="_blank">{{show.venue}}</a></h3>
+      <h3 class="text-center text-uppercase fw-bold text-danger">{% if show.link.venue != blank? %}<a href="{{show.link.venue}}" class="link-danger" target="_blank">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank? %}{{show.venue}}{% endif %}</h3>
       <p class="text-center">
         <span>{{show.location}}</span>
         <br>
