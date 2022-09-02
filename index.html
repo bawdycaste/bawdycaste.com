@@ -26,15 +26,15 @@ ticket_link: "https://ticketing.uswest.veezi.com/purchase/7527?siteToken=52wkfzm
   </h1>
 </header>
 
-<div class="row text-center d-none">
-  <div class="col col-5 my-auto mx-auto">
+<div class="row text-center">
+  <div class="col col-2 my-auto mx-auto">
     <img
       class="img-fluid"
       src="https://storage.googleapis.com/cdn.bawdycaste.com/images/RHPSLogo_LipsFrank.png"
       alt=""
     />
   </div>
-  <div class="col col-5 my-auto mx-auto">
+  <div class="col col-5 my-auto mx-auto d-none">
     <img
       class="w-100"
       src="https://storage.googleapis.com/cdn.bawdycaste.com/images/balboa.png"
@@ -52,10 +52,10 @@ ticket_link: "https://ticketing.uswest.veezi.com/purchase/7527?siteToken=52wkfzm
     </div>
 </div>
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2 align-items-center justify-content-evenly">
+<div class="row">
 
-  <div class="col">
-    <div class="alert alert-dark text-uppercase fofbb">
+  <div class="col col-12">
+    <div class="alert alert-secondary text-uppercase fofbb">
       <h2 class="alert-heading">
         <div class="row align-items-center justify-content-center text-center w-100">
           <div class="col fs-2">&#128567;</div>
@@ -67,19 +67,26 @@ ticket_link: "https://ticketing.uswest.veezi.com/purchase/7527?siteToken=52wkfzm
       </h2>
     </div>
   </div>
+</div>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  g-2 align-items-center justify-content-evenly">
 
   {% for show in site.data.october22 %}
-  <div class="col">
+  <div id="{{show.uuid}}" class="col">
     <div class="alert alert-dark border border-4 border-dark p-1">
-      <h2 class="alert-header text-center fw-bold">{{show.date | date: "%b %d, %Y"}}</h2>
-      <p class="lead">{{show.title}}</p>
+      <h2 class="alert-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
+      <!-- <p class="lead">{{show.title}}</p> -->
       <h3 class="text-center"><a href="{{show.link.venue}}" class="text-uppercase fw-bold link-danger" target="_blank">{{show.venue}}</a></h3>
-      <p>{{show.location}}</p>
+      <p class="text-center">
+        <span>{{show.location}}</span>
+        <br>
+        <span>{{show.time}}</span> <span class="badge bg-dark">{{show.io}}</span>
+      </p>
       <p class="btn-group w-100 mb-0">
-          <a href="{{show.link.tickets}}" class="btn btn-danger {% if show.link.tickets == blank? %}disabled{%endif%}">tickets</a>
+          <a href="{{show.link.ticket}}" class="btn btn-danger {% if show.link.ticket == blank? %}disabled{%endif%}">tickets</a>
           <a href="{{show.link.fb}}" class="btn btn-secondary {% if show.link.fb == blank? %}disabled{%endif%}">fb event</a>
         </p>
-        <p class="text-center text-muted my-0">{{show.special}}</p>
+        <p class="text-center df fs-4 my-0">{{show.special}}</p>
     </div>
   </div>
   {% endfor %}

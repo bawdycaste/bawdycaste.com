@@ -1,70 +1,84 @@
 - uuid: bcrhps001
   title: 
-  date: 2022-10-01
-  venue: venue
-  location: some theater, some city, state, zip
+  date: 2022-09-24
+  time: "doors: 11pm, show: 11:30, movie:  midnight"
+  venue: Balboa Theater
+  location: San Francisco, CA
   link:
-    ticket: 
-    fb:
-    venue:
-  movie: RHPS
-  special: >
-    "they hate when you do this one weird thing"
-- uuid: bcrhps005
-  title: 
-  date: 2022-10-01
-  venue: venue
-  location: some theater, some city, state, zip
-  link:
-    ticket: 
-    fb:
-    venue:
-  movie: RHPS
-  special: >
-    "they hate when you do this one weird thing"
-- uuid: bcrhps004
-  title: 
-  date: 2022-10-01
-  venue: venue
-  location: some theater, some city, state, zip
-  link:
-    ticket: 
-    fb:
-    venue:
-  movie: RHPS
-  special: >
-    "they hate when you do this one weird thing"
-- uuid: bcrhps001
-  title: 
-  date: 2022-10-01
-  venue: venue
-  location: some theater, some city, state, zip
-  link:
-    ticket: 
-    fb:
-    venue:
-  movie: RHPS
-  special: >
-    "they hate when you do this one weird thing"
-- uuid: bcrhps002
-  title: 
-  date: 2022-10-01
-  venue: venue
-  location: some theater, some city, state, zip
-  link:
-    ticket: 
-    fb:
-    venue:
-  movie: RHPS
-  special: "they hate when you do this one weird thing"
-- uuid: bcrhps003
-  title: 
-  date: 2022-10-01
-  venue: venue
-  location: some theater, some city, state, zip
-  link:
-    ticket: 
-    fb:
-    venue:
+    ticket: https://ticketing.uswest.veezi.com/purchase/7692?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    fb: https://fb.me/e/1MWQu2SZ4
+    venue: https://www.balboamovies.com/calendar-of-events/the-rocky-horror-picture-show-1-gkne6-fb6dd
   movie: RHPS
   special:
+- uuid: bcrhps002
+  title: 
+  date: "?? ?? ??"
+  time: "preshow 10pm, movie 10:30pm"
+  io: zoom
+  venue: online
+  location: Rocky Horror Stream-Along
+  link:
+    ticket: 
+    fb:
+    venue: https://www.balboamovies.com/
+  movie: RHPS
+  special:
+- uuid: bcrhps001
+  title: RENO!
+  date: 2022-10-14
+  time: 8pm
+  io: outdoors-ish
+  venue: Aces Ballpark
+  location: 250 Evans Ave, Reno, NV 89501
+  link:
+    ticket: https://mlb.tickets.com/?orgId=53089&agency=RENV_PLAGENCY_MPV&eventId=9873&coupon=ROCKY#/event/E9873/ticketlist/?view=pricescales&minPrice=12&maxPrice=12&quantity=2&sort=price_desc&ada=false&seatSelection=false&onlyCoupon=true&onlyVoucher=false
+    fb:
+    venue: https://greaternevadafield.com/rockyhorror/
+  movie: RHPS
+  special:
+- uuid: bcrhps005
+  title: FALLON!
+  date: 2022-10-15
+  time: "10:30"
+  venue: Fallon Theaters
+  location: 71 S. Maine St., Fallon, NV 89406
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special: Tickets at door only
+- uuid: bcrhps001
+  title: 
+  date: 2022-10-21
+  time: 8pm?
+  venue: guild theater
+  location: 949 El Camino Real, Menlo Park, CA 94025
+  link:
+    ticket: 
+    fb: 
+    venue: https://guildtheatre.com/
+  movie: RHPS
+  special: 
+- uuid: bcrhps006
+  title: 
+  date: 2022-10-29
+  venue: balboa theater
+  location: 3630 Balboa St, San Francisco, CA 94121
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special: Last Saturday
+- uuid: bcrhps006
+  title: 
+  date: 2022-10-31
+  venue: balboa theater
+  location: 3630 Balboa St, San Francisco, CA 94121
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special: HALLOWEEN NIGHT
