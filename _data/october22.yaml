@@ -66,9 +66,9 @@
   venue: balboa theater
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: 
+    ticket:
     fb:
-    venue:
+    venue: https://www.balboamovies.com
   movie: RHPS
   special: Last Saturday
 - uuid: bcrhps006
@@ -79,6 +79,6 @@
   link:
     ticket: 
     fb:
-    venue:
+    venue: https://www.balboamovies.com
   movie: RHPS
   special: HALLOWEEN NIGHT
