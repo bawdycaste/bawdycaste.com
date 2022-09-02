@@ -1,0 +1,70 @@
+- uuid: bcrhps001
+  title: 
+  date: 2022-10-01
+  venue: venue
+  location: some theater, some city, state, zip
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special: >
+    "they hate when you do this one weird thing"
+- uuid: bcrhps005
+  title: 
+  date: 2022-10-01
+  venue: venue
+  location: some theater, some city, state, zip
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special: >
+    "they hate when you do this one weird thing"
+- uuid: bcrhps004
+  title: 
+  date: 2022-10-01
+  venue: venue
+  location: some theater, some city, state, zip
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special: >
+    "they hate when you do this one weird thing"
+- uuid: bcrhps001
+  title: 
+  date: 2022-10-01
+  venue: venue
+  location: some theater, some city, state, zip
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special: >
+    "they hate when you do this one weird thing"
+- uuid: bcrhps002
+  title: 
+  date: 2022-10-01
+  venue: venue
+  location: some theater, some city, state, zip
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special: "they hate when you do this one weird thing"
+- uuid: bcrhps003
+  title: 
+  date: 2022-10-01
+  venue: venue
+  location: some theater, some city, state, zip
+  link:
+    ticket: 
+    fb:
+    venue:
+  movie: RHPS
+  special:
