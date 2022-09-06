@@ -1,7 +1,7 @@
 - uuid: bcrhps001
   title: 
   date: 2022-09-24
-  time: "doors: 11pm, show: 11:30, movie:  midnight"
+  time: "doors: 11pm, preshow: 11:30pm, movie: midnight"
   venue: Balboa Theater
   location: San Francisco, CA
   link:
@@ -39,7 +39,7 @@
 - uuid: bcrhps004
   title: FALLON!
   date: 2022-10-15
-  time: "10:30"
+  time: "10:30pm"
   venue: Fallon Theaters
   location: 71 S. Maine St., Fallon, NV 89406
   link:
@@ -51,7 +51,7 @@
 - uuid: bcrhps005
   title: 
   date: 2022-10-21
-  time: doors 7pm, show 8pm
+  time: doors 6:30pm, preshow 7pm, movie 7:30pm
   venue: guild theater
   location: 949 El Camino Real, Menlo Park, CA 94025
   link:
@@ -63,6 +63,7 @@
 - uuid: bcrhps006
   title: 
   date: 2022-10-29
+  time: "doors: 11pm, preshow: 11:30pm, movie: midnight"
   venue: balboa theater
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
@@ -74,6 +75,7 @@
 - uuid: bcrhps007
   title: 
   date: 2022-10-31
+  time: "doors: 9pm, preshow: 9:30pm, movie: 10pm"
   venue: balboa theater
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
