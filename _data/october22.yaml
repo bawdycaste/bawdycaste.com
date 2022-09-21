@@ -13,7 +13,7 @@
 - uuid: bcrhps003
   title: RENO!
   date: 2022-10-14
-  time: 8pm
+  time: "8pm"
   io: outdoors-ish
   venue: Aces Ballpark
   location: 250 Evans Ave, Reno, NV 89501
@@ -38,7 +38,7 @@
 - uuid: bcrhps005
   title: 
   date: 2022-10-21
-  time: doors: 6:30pm, preshow: 7pm, movie: 7:30pm
+  time: "doors: 6:30pm, preshow: 7pm, movie: 7:30pm"
   venue: guild theater
   location: 949 El Camino Real, Menlo Park, CA 94025
   link:
