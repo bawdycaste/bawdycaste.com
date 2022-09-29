@@ -2,3 +2,4 @@
 
 User-agent: * 
 Disallow:
+Sitemap: http://bawdycaste.com/sitemap.xml
