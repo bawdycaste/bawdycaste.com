@@ -2,7 +2,6 @@
   title: RENO!
   date: 2022-10-14
   time: "8pm"
-  io: outdoors-ish
   venue: Aces Ballpark
   location: 250 Evans Ave, Reno, NV 89501
   link:
@@ -10,7 +9,7 @@
     fb: https://www.facebook.com/GreaterNevadaField/photos/10160308325326449
     venue: https://greaternevadafield.com/rockyhorror/
   movie: RHPS
-  special:
+  special: "Outdoors on Patio"
 - uuid: bcrhps004
   title: FALLON!
   date: 2022-10-15
