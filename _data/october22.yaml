@@ -27,14 +27,14 @@
   title: 
   date: 2022-10-21
   time: "doors: 6:30pm, preshow: 7pm, movie: 7:30pm"
-  venue: guild theater
+  venue: Guild Theater
   location: 949 El Camino Real, Menlo Park, CA 94025
   link:
     ticket: https://guildtheatre.com/events/the-rocky-horror-picture-show-ft-bawdy-caste-10-21-2022/
     fb: https://www.facebook.com/events/s/rocky-horror-picture-show-ft-b/770876480783391/
     venue: https://guildtheatre.com/
   movie: RHPS
-  special: 
+  special: "Masks Reccommended"
 - uuid: bcrhps006
   title: 
   date: 2022-10-29
