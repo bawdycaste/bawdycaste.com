@@ -14,7 +14,7 @@
   title: FALLON!
   date: 2022-10-15
   time: "10:30pm"
-  venue: Fallon Theaters
+  venue: Fallon Theatres
   location: 71 S. Maine St., Fallon, NV 89406
   link:
     ticket: 
@@ -26,19 +26,19 @@
   title: 
   date: 2022-10-21
   time: "doors: 6:30pm, preshow: 7pm, movie: 7:30pm"
-  venue: Guild Theater
+  venue: Guild Theatre
   location: 949 El Camino Real, Menlo Park, CA 94025
   link:
     ticket: https://guildtheatre.com/events/the-rocky-horror-picture-show-ft-bawdy-caste-10-21-2022/
     fb: https://www.facebook.com/events/s/rocky-horror-picture-show-ft-b/770876480783391/
     venue: https://guildtheatre.com/
   movie: RHPS
-  special: "Masks Reccommended"
+  special: "Masks Reccommended per Theatre"
 - uuid: bcrhps006
   title: 
   date: 2022-10-29
   time: "doors: 11pm, preshow: 11:30pm, movie: midnight"
-  venue: balboa theater
+  venue: balboa theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
     ticket: https://ticketing.uswest.veezi.com/purchase/7832?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
@@ -50,7 +50,7 @@
   title: 
   date: 2022-10-31
   time: "doors: 9pm, preshow: 9:30pm, movie: 10pm"
-  venue: balboa theater
+  venue: balboa theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
     ticket: https://ticketing.uswest.veezi.com/purchase/7833?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
