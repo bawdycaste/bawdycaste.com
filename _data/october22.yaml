@@ -34,7 +34,7 @@
     venue: https://guildtheatre.com/
   movie: RHPS
   special: "Masks Reccommended per Theatre"
-  - uuid: bcrhps006
+- uuid: bcrhps006
   title: 
   date: 2022-10-21
   time: "doors: 9:30pm, preshow: 10pm, movie: 10:30pm"
