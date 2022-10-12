@@ -34,7 +34,19 @@
     venue: https://guildtheatre.com/
   movie: RHPS
   special: "Masks Reccommended per Theatre"
-- uuid: bcrhps006
+  - uuid: bcrhps006
+  title: 
+  date: 2022-10-21
+  time: "doors: 9:30pm, preshow: 10pm, movie: 10:30pm"
+  venue: Guild Theatre - Late Show
+  location: 949 El Camino Real, Menlo Park, CA 94025
+  link:
+    ticket: https://guildtheatre.com/events/the-rocky-horror-picture-show-ft-bawdy-caste-late-show-10-21-2022/
+    fb: https://www.facebook.com/events/s/rocky-horror-picture-show-ft-b/770876480783391/
+    venue: https://guildtheatre.com/
+  movie: RHPS
+  special: "Masks Reccommended per Theatre"
+- uuid: bcrhps007
   title: 
   date: 2022-10-29
   time: "doors: 11pm, preshow: 11:30pm, movie: midnight"
@@ -46,7 +58,7 @@
     venue: https://www.balboamovies.com
   movie: RHPS
   special: Last Saturday
-- uuid: bcrhps007
+- uuid: bcrhps008
   title: 
   date: 2022-10-31
   time: "doors: 9pm, preshow: 9:30pm, movie: 10pm"
