@@ -1,15 +1,3 @@
-- uuid: bcrhps004
-  title: FALLON!
-  date: 2022-10-15
-  time: "10:30pm"
-  venue: Fallon Theatres
-  location: 71 S. Maine St., Fallon, NV 89406
-  link:
-    ticket: 
-    fb: https://www.facebook.com/events/1162853037599979/
-    venue:
-  movie: RHPS
-  special: Tickets at door only
 - uuid: bcrhps005
   title: 
   date: 2022-10-21
