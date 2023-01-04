@@ -85,8 +85,8 @@ ticket_link: "https://ticketing.uswest.veezi.com/purchase/7527?siteToken=52wkfzm
         <span>{{show.time}}</span> <span class="badge bg-dark">{{show.io}}</span>
       </p>
       <p class="btn-group w-100 mb-0">
-          <a href="{{show.link.ticket}}" class="btn btn-danger target="_blank" {% if show.link.ticket == blank? %}disabled{%endif%}">tickets</a>
-          <a href="{{show.link.fb}}" class="btn btn-secondary target="_blank" {% if show.link.fb == blank? %}disabled{%endif%}">fb event</a>
+          <a href="{{show.link.ticket}}" class="btn btn-danger" target="_blank" {% if show.link.ticket == blank? %}disabled{%endif%}">tickets</a>
+          <a href="{{show.link.fb}}" class="btn btn-secondary" target="_blank" {% if show.link.fb == blank? %}disabled{%endif%}">fb event</a>
         </p>
         <p class="text-center df fs-4 my-0">{{show.special}}</p>
     </div>
