@@ -1,12 +1,36 @@
-- uuid: bcrhps008
+- uuid: bcrhps001
+  title: 
+  date: 2023-01-14
+  time: "doors: 10:30pm, preshow: 11:30pm, movie: Midnight"
+  venue: landmark Musical Theatre
+  location: 533 Sutter Street, San Francisco, CA 94102
+  link:
+    ticket: https://landmarkmusicals.audience1st.com/store?showdate_id=365
+    fb: 
+    venue: https://www.landmarkmusicals.com/next-special-events
+  movie: RHPS
+  special:  
+- uuid: bcrhps002
   title: 
   date: 2022-12-31
   time: "doors: 11pm, preshow: 11:30pm, movie: 12:05"
   venue: balboa theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/8420?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb: https://fb.me/e/2vE4ZZ8Fy
+    ticket: https://ticketing.uswest.veezi.com/purchase/8863?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    fb: 
     venue: https://www.balboamovies.com
   movie: RHPS
-  special: New Year's Eve Celebration! 
+  special: 
+- uuid: bcrhps003
+  title: 
+  date: 2023-02-11
+  time: "doors: 10:30pm, preshow: 11:30pm, movie: Midnight"
+  venue: landmark Musical Theatre
+  location: 533 Sutter Street, San Francisco, CA 94102
+  link:
+    ticket: https://landmarkmusicals.audience1st.com/store?showdate_id=369
+    fb: 
+    venue: https://www.landmarkmusicals.com/next-special-events
+  movie: RHPS
+  special:  
