@@ -1,55 +1,37 @@
 ---
 layout: default
-show_date: 2022-08-27
-time_doors: "23:00:00"
-time_preshow: "23:30:00"
-time_show: "MIDNIGHT"
-fb_link: "https://fb.me/e/1R8cwHa6s"
-ticket_link: "https://ticketing.uswest.veezi.com/purchase/7527?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg"
 ---
 
 <header class="header text-center text-light p-1">
   <h1 style="font-size: 2.45rem" class="fofbb">
-    <span
-      class="ss"
-      style="
+    <span class="ss" style="
         font-size: 3rem;
         text-transform: uppercase;
         text-rendering: optimizeLegibility;
-      "
-      >Bawdy Caste</span
-    >
+      ">Bawdy Caste</span>
     presents: <br />
-    <span class="df text-red" style="text-shadow: 4px 4px white"
-      >THE ROCKY HORROR PICTURE SHOW</span
-    >
+    <span class="df text-red" style="text-shadow: 4px 4px white">THE ROCKY HORROR PICTURE SHOW</span>
   </h1>
 </header>
 
 <div class="row text-center">
   <div class="col col-2 my-auto mx-auto">
-    <img
-      class="img-fluid"
-      src="https://storage.googleapis.com/cdn.bawdycaste.com/images/RHPSLogo_LipsFrank.png"
-      alt=""
-    />
+    <img class="img-fluid" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/RHPSLogo_LipsFrank.png"
+      alt="" />
   </div>
   <div class="col col-5 my-auto mx-auto d-none">
-    <img
-      class="w-100"
-      src="https://storage.googleapis.com/cdn.bawdycaste.com/images/balboa.png"
-      alt="balboa theatre logo, a stylizing drawing of the buildings marquee"
-    />
+    <img class="w-100" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/balboa.png"
+      alt="balboa theatre logo, a stylizing drawing of the buildings marquee" />
   </div>
 </div>
 
 <div class="row">
-    <div class="col text-center">
-        <h2 class="f13" style="text-shadow:1px 1px 1px black">
-            the cult classic movie with full
-            <u>audience participation</u> experience!<br />
-          </h2>
-    </div>
+  <div class="col text-center">
+    <h2 class="f13" style="text-shadow:1px 1px 1px black">
+      the cult classic movie with full
+      <u>audience participation</u> experience!<br />
+    </h2>
+  </div>
 </div>
 
 <div class="row">
@@ -68,30 +50,40 @@ ticket_link: "https://ticketing.uswest.veezi.com/purchase/7527?siteToken=52wkfzm
   </div>
 </div>
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  g-2 align-items-center justify-content-evenly">
-  <div class="col align-items-center justify-content-center">
-    <img class="img-fluid" style="transform: rotate(-15deg);" src="https://storage.googleapis.com/cdn.bawdycaste.com/images/bawdybags.png" alt="participation kits for sale for three dollars, two for five. everything you need to throw blow and glow at the rocky horror picture show">
-    </div>
+<div class="row">
 
-  {% for show in site.data.october22 %}
-  <div id="{{show.uuid}}" class="col">
+  {% assign shows = site.data.shows | sort: 'date' %}
+  {% for show in shows %}
+  <div id="{{show.uuid}}" class="col-12 col-md-4">
     <div class="alert alert-dark border border-4 border-dark p-1">
       <h2 class="alert-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
       <!-- <p class="lead">{{show.title}}</p> -->
-      <h3 class="text-center text-uppercase fw-bold text-danger">{% if show.link.venue != blank? %}<a href="{{show.link.venue}}" class="link-danger" target="_blank">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank? %}{{show.venue}}{% endif %}</h3>
-      <p class="text-center">
+      <h3 class="text-center text-uppercase fw-bold text-danger">{% if show.link.venue != blank? %}<a
+        href="{{show.link.venue}}" class="link-danger" target="_blank">{{show.venue}}</a>{% endif %}{% if
+        show.link.venue == blank? %}{{show.venue}}{% endif %}</h3>
+        <p class="text-center">
         <span>{{show.location}}</span>
         <br>
         <span>{{show.time}}</span> <span class="badge bg-dark">{{show.io}}</span>
       </p>
+      {%if show.ticketcost != blank? %}<p class="text-center"><span class="bg-dark text-light px-1">{{show.ticketcost}}</span></p>{% endif %}
       <p class="btn-group w-100 mb-0">
-          <a href="{{show.link.ticket}}" class="btn btn-danger" target="_blank" {% if show.link.ticket == blank? %}disabled{%endif%}">tickets</a>
-          <a href="{{show.link.fb}}" class="btn btn-secondary" target="_blank" {% if show.link.fb == blank? %}disabled{%endif%}">fb event</a>
-        </p>
-        <p class="text-center df fs-4 my-0">{{show.special}}</p>
-    </div>
-  </div>
-  {% endfor %}
+        <a href="{{show.link.ticket}}" class="btn btn-danger" target="_blank" {% if show.link.ticket==blank?
+          %}disabled{%endif%}">tickets</a>
+          <a href="{{show.link.fb}}" class="btn btn-secondary" target="_blank" {% if show.link.fb==blank?
+            %}disabled{%endif%}">fb event</a>
+          </p>
+          <p class="text-center df fs-4 my-0">{{show.special}}</p>
+        </div>
+      </div>
+      {% endfor %}
+      
+      <div class="col-8 col-md-4 mx-auto">
+        <img class="img-fluid" style="transform: rotate(-15deg);"
+          src="https://storage.googleapis.com/cdn.bawdycaste.com/images/bawdybags.png"
+          alt="participation kits for sale for three dollars, two for five. everything you need to throw blow and glow at the rocky horror picture show">
+      </div>
+      
 </div>
 
 <div class="row my-3">
@@ -108,11 +100,8 @@ ticket_link: "https://ticketing.uswest.veezi.com/purchase/7527?siteToken=52wkfzm
 
 <div class="row">
   <div class="col col-10 col-lg-4 mb-3 p-0 mx-auto">
-    <img
-      class="w-100 rounded"
-      src="https://storage.googleapis.com/bawdycaste/images/golden-gate-frank.png"
-      alt="balboa theatre logo, a sylizing drawing of the buildings marquee"
-    />
+    <img class="w-100 rounded" src="https://storage.googleapis.com/bawdycaste/images/golden-gate-frank.png"
+      alt="balboa theatre logo, a sylizing drawing of the buildings marquee" />
   </div>
 </div>
 
