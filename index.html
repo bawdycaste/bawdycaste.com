@@ -59,31 +59,32 @@ layout: default
       <h2 class="alert-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
       <!-- <p class="lead">{{show.title}}</p> -->
       <h3 class="text-center text-uppercase fw-bold text-danger">{% if show.link.venue != blank? %}<a
-        href="{{show.link.venue}}" class="link-danger" target="_blank">{{show.venue}}</a>{% endif %}{% if
+          href="{{show.link.venue}}" class="link-danger" target="_blank">{{show.venue}}</a>{% endif %}{% if
         show.link.venue == blank? %}{{show.venue}}{% endif %}</h3>
-        <p class="text-center">
+      <p class="text-center">
         <span>{{show.location}}</span>
         <br>
         <span>{{show.time}}</span> <span class="badge bg-dark">{{show.io}}</span>
       </p>
-      {%if show.ticketcost != blank? %}<p class="text-center"><span class="bg-dark text-light px-1">{{show.ticketcost}}</span></p>{% endif %}
+      {%if show.ticketcost != blank? %}<p class="text-center"><span
+          class="bg-dark text-light px-1">{{show.ticketcost}}</span></p>{% endif %}
       <p class="btn-group w-100 mb-0">
-        <a href="{{show.link.ticket}}" class="btn btn-danger" target="_blank" {% if show.link.ticket==blank?
-          %}disabled{%endif%}">tickets</a>
-          <a href="{{show.link.fb}}" class="btn btn-secondary" target="_blank" {% if show.link.fb==blank?
-            %}disabled{%endif%}">fb event</a>
-          </p>
-          <p class="text-center df fs-4 my-0">{{show.special}}</p>
-        </div>
-      </div>
-      {% endfor %}
-      
-      <div class="col-8 col-md-4 mx-auto">
-        <img class="img-fluid" style="transform: rotate(-15deg);"
-          src="https://storage.googleapis.com/cdn.bawdycaste.com/images/bawdybags.png"
-          alt="participation kits for sale for three dollars, two for five. everything you need to throw blow and glow at the rocky horror picture show">
-      </div>
-      
+        <a href="{{show.link.ticket}}" class="btn btn-danger {% if show.link.ticket==blank?%}disabled{%endif%}"
+          target="_blank">tickets</a>
+        <a href="{{show.link.fb}}" class="btn btn-secondary {% if show.link.fb == blank?%}disabled{%endif%}"
+          target="_blank">fb event</a>
+      </p>
+      <p class="text-center df fs-4 my-0">{{show.special}}</p>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="col-8 col-md-4 mx-auto">
+    <img class="img-fluid" style="transform: rotate(-15deg);"
+      src="https://storage.googleapis.com/cdn.bawdycaste.com/images/bawdybags.png"
+      alt="participation kits for sale for three dollars, two for five. everything you need to throw blow and glow at the rocky horror picture show">
+  </div>
+
 </div>
 
 <div class="row my-3">
