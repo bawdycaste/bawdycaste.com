@@ -1,16 +1,3 @@
-- uuid: bcrhps001
-  title: 
-  date: 2023-01-14
-  time: "doors: 10:30pm, preshow: 11:30pm, movie: Midnight"
-  ticketcost: "$10, or $15 with $10 Food Voucher"
-  venue: Landmark Musical Theatre
-  location: 533 Sutter Street, San Francisco, CA 94102
-  link:
-    ticket: https://landmarkmusicals.audience1st.com/store?showdate_id=365
-    fb: https://fb.me/e/2rd0yiUL1
-    venue: https://www.landmarkmusicals.com/next-special-events
-  movie: RHPS
-  special:  
 - uuid: bcrhps002
   title: test
   date: 2023-01-28
@@ -20,7 +7,7 @@
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
     ticket: https://ticketing.uswest.veezi.com/purchase/8863?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    # fb: 
+    # fb: https://fb.me/e/436tNFCMf
     venue: https://www.balboamovies.com
   movie: RHPS
   special:
