@@ -55,7 +55,7 @@ layout: main
   {% assign shows = site.data.shows | sort: 'date' %}
   {% for show in shows %}
   <div id="{{show.uuid}}" class="col-12 col-md-4">
-    <div class="alert alert-dark border border-4 border-dark p-1">
+    <div class="alert alert-dark border border-4 border-dark p-1 shadow-lg">
       <h2 class="alert-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
       <!-- <p class="lead">{{show.title}}</p> -->
       <h3 class="text-center text-uppercase fw-bold text-danger">{% if show.link.venue != blank? %}<a
@@ -80,7 +80,7 @@ layout: main
   {% endfor %}
 
   <div class="col-8 col-md-4 mx-auto">
-    <img class="img-fluid" style="transform: rotate(-15deg);"
+    <img class="img-fluid" style="transform: rotate(-15deg);filter: drop-shadow(6px 6px 6px black);"
       src="https://storage.googleapis.com/cdn.bawdycaste.com/images/bawdybags.png"
       alt="participation kits for sale for three dollars, two for five. everything you need to throw blow and glow at the rocky horror picture show">
   </div>
