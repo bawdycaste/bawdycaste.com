@@ -1,8 +1,8 @@
 title: Rocky Horror with Bawdy Caste
 email: info@bawdycaste.com
 description: "san francisco's rocky horror picture show shadow cast!"
-baseurl: ""
+permalink: /:categories/:year/:month/:day/:title/
 url: "https://bawdycaste.com" 
 twitter_username: bawdycaste
-github_username:  bawdycaste
+github_username: bawdycaste
 markdown: kramdown
