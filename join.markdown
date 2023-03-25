@@ -35,7 +35,8 @@ Staying in Touch: It doesn’t really matter how--emails, Discord messages, text
 The cast is organized into departments that deal with different parts of the show. Everyone is a member of at least one department, and you can be involved in as many departments as you’d like (you can also change departments at any time, so don’t worry about choosing the “wrong” one!). We’ll help you figure out where to get started, and as you get to know the cast better you can figure out how you want to contribute. It’s a great idea to talk to the Department Heads (listed below) to learn more. The departments include:
 
 **Actoring:** Includes anyone who performs on stage.  This group is responsible for decisions about the performance the audience sees from the start of the movie to the end credits.
-Tech Crew: The people who run the show behind-the-scenes. This group is responsible for decisions about the technical side of the show, including props, cues, sound, lights, and working with theaters on technical matters.
+
+**Tech Crew:** The people who run the show behind-the-scenes. This group is responsible for decisions about the technical side of the show, including props, cues, sound, lights, and working with theaters on technical matters.
 
 **Security:** The connection point between the cast and the audience. This group is responsible for all decisions related to the safety of the cast, the audience and the theater. They act as audience liaisons at shows: Getting to know the audience, making announcements, teaching callback lines and working to make sure everyone at the show has a fun and safe time.  
 
@@ -43,7 +44,7 @@ Tech Crew: The people who run the show behind-the-scenes. This group is responsi
 
 **P.E.N.I.S.:** This group is like a marketing team. They come up with ways to promote the show, get new audience members in the seats, keep our regular audience coming back, and they maintain our internet and social media presence.  (If you’re wondering, it stands for Promotion, Engagement, Networking, Internet and Social-media.)
 
-**Preshows:** This group includes all our Emcees and DJ’s, along with anyone who is interested in making the beginning of the show (from the line up to the start of the movie) more fun for the audience.
+**Preshows:** This group includes all our Emcees and DJ’s, along with anyone who is interested in making the beginning of the show (from opening the doors to the start of the movie) more fun for the audience.
 
 ## CAST LEADERSHIP
 
