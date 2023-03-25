@@ -80,7 +80,7 @@ Most important decisions are made democratically either by departments or at cas
 ## Steps to Join Cast
 
 1. Read this page...
-2. Fill out the [Bawdy Caste &mdash; Cast Member Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSeL46Dg3M8Vd9IROYPFJlsngS9UZrGCqXzswnIopG9wEK5hTQ/viewform?usp=sf_link)
+2. Fill out the [Cast Member Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSeL46Dg3M8Vd9IROYPFJlsngS9UZrGCqXzswnIopG9wEK5hTQ/viewform?usp=sf_link)
 3. Read and sign the [Photo Capture and Image Release Agreement](https://forms.gle/ohp5m42qWdFJBpwr5)
 4. Join [Discord](https://bawdycaste.com/discord)
 5. Attend your first show as a cast member
