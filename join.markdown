@@ -78,7 +78,7 @@ Most important decisions are made democratically either by departments or at cas
 
 **Priorities:** Your health, family, school, work, D&D campaigns, cat’s birthday party, and underground fight club (shhhhh), are more important than Rocky. It is understandable and perfectly acceptable to “check out” of shows for personal obligations. While we expect people to participate and be active members while on cast, we also realize that Rocky is not 100% of anyone’s life, and don’t expect anyone to treat it as such. But please try to give your fellow cast mates as much notice as you can when checking out of a show so that they don’t need to scramble.  
 
-## Steps to Join Cast
+# Steps to Join Cast
 
 1. Read this page...
 2. Fill out the [Cast Member Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSeL46Dg3M8Vd9IROYPFJlsngS9UZrGCqXzswnIopG9wEK5hTQ/viewform?usp=sf_link)
