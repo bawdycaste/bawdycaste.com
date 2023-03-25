@@ -9,7 +9,7 @@ These next few pages are intended as a rough guide to how we do things around he
 They should answer most questions you may have regarding behavior and the protocol for onstage and backstage situations, as well as how we, as a cast, make decisions. 
 If you still have questions, feel free to ask anyone face-to-face, call or email. We also have a full set of bylaws that we can share with you if you want to see them.
 
-## First Steps
+## FIRST STEPS
 
 The best way to get involved on cast is to jump right in! Introduce yourself, talk to folks, ask questions, tell stories, try new things. We love new members and can’t wait to get to know you better! There are a few main ways to reach out to the cast:  
 
