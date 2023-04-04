@@ -1,26 +1,13 @@
 - uuid: bcrhps001
   title: 
-  date: 2023-03-18
-  time: "doors: 10:30pm, preshow: 11:30pm, movie: Midnight"
-  ticketcost: "$10, or $15 with $10 Food Voucher"
-  venue: Landmark Musical Theatre
-  location: 533 Sutter Street, San Francisco, CA 94102
-  link:
-    ticket: https://landmarkmusicals.audience1st.com/store?showdate_id=380
-    fb: https://fb.me/e/4kYbJBSZE
-    venue: https://www.landmarkmusicals.com/rocky-horror
-  movie: RHPS
-  special: 
-- uuid: bcrhps002
-  title: 
-  date: 2023-03-25
+  date: 2023-04-29
   time: "doors: 11pm, preshow: 11:30pm, movie: Midnight"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: balboa theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/9448?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb: https://fb.me/e/14baI4xY6
+#    ticket: https://ticketing.uswest.veezi.com/purchase/9448?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    fb: https://fb.me/e/WIwEfXwX
     venue: https://www.balboamovies.com
   movie: RHPS
-  special: Rocky Roulette!
+  special: Special BC Alumni Show!
