@@ -1,13 +1,14 @@
 - uuid: bcrhps001
   title: 
-  date: 2023-04-29
+  date: 2023-05-27
   time: "doors: 11pm, preshow: 11:30pm, movie: Midnight"
   ticketcost: "$15 or $12.50 for Seniors"
-  venue: balboa theatre
+  venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/9447?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb: https://fb.me/e/WIwEfXwX
+    ticket: https://ticketing.uswest.veezi.com/purchase/9868?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    fb: https://fb.me/e/U9yfSoXJ
     venue: https://www.balboamovies.com
   movie: RHPS
-  special: Special BC Alumni Show!
+  special: 
+ 
