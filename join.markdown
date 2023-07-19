@@ -7,7 +7,7 @@ layout: null
 
 These next few pages are intended as a rough guide to how we do things around here. 
 They should answer most questions you may have regarding behavior and the protocol for onstage and backstage situations, as well as how we, as a cast, make decisions. 
-If you still have questions, feel free to ask anyone face-to-face, call or email. We also have a full set of bylaws that we can share with you if you want to see them.
+If you still have questions, feel free to ask anyone face-to-face, call or email. We also have a full set of [bylaws](https://bylaws.bawdycaste.com).
 
 ## FIRST STEPS
 
