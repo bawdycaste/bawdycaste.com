@@ -83,6 +83,6 @@ Most important decisions are made democratically either by departments or at cas
 1. Read this page...
 2. Fill out the [Cast Member Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSeL46Dg3M8Vd9IROYPFJlsngS9UZrGCqXzswnIopG9wEK5hTQ/viewform?usp=sf_link)
 3. Read and sign the [Photo Capture and Image Release Agreement](https://forms.gle/ohp5m42qWdFJBpwr5)
-4. Join [Discord](https://bawdycaste.com/discord)
+4. Join [Discord](https://discord.gg/a7HgFtgTxD), and select stuff that interests you in **#discord-roles**
 5. Attend your first show as a cast member
 6. Pay dues (you can do this at your first show)
