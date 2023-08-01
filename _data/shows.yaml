@@ -1,14 +1,37 @@
 - uuid: bcrhps001
   title: 
-  date: 2023-07-29
+  date: 2023-08-29
   time: "doors: 11pm, preshow: 11:30pm, movie: Midnight"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/10404?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb: https://fb.me/e/1kU4Dyirx
+    ticket: 
+    fb: 
     venue: https://www.balboamovies.com
   movie: RHPS
-  special: 🏖️ Beach Party show! 🌴
-  
+  special: 
+- uuid: bcrhps002
+  title: 
+  date: 2023-10-07
+  time: "Early Show: 7pm"
+  venue: The Guild Theatre
+  location: 949 El Camino Real, Menlo Park, CA 94025
+  link:
+    ticket: tixr.com/pr/band/76563 
+    fb: https://www.facebook.com/100039524456826/posts/pfbid02cTWaT6HWDJ4fRhA6SdDjTKUiUdQeT36vtVZ33ZYaAgdVYWS79jBffu7githKFCaul
+    venue: https://www.guildtheatre.com/
+  movie: RHPS
+  special: Tickets on Sale: Fri 8/4 12pm
+- uuid: bcrhps003
+  title: 
+  date: 2023-10-07
+  time: "Late Show: 10pm"
+  venue: The Guild Theatre
+  location: 949 El Camino Real, Menlo Park, CA 94025
+  link:
+    ticket: tixr.com/pr/band/76564
+    fb: https://www.facebook.com/100039524456826/posts/pfbid02cTWaT6HWDJ4fRhA6SdDjTKUiUdQeT36vtVZ33ZYaAgdVYWS79jBffu7githKFCaul
+    venue: https://www.guildtheatre.com/
+  movie: RHPS
+  special: Tickets on Sale: Fri 8/4 12pm
