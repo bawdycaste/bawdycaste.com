@@ -11,7 +11,11 @@ var messages = [
     'Buy a Large Popcorn!',
     'We Want YOU to join the BAWDY CASTE',
     'Thank you for wearing a mask!',
-    'Our All-Volunteer Cast will be Available for Photos & Accepting Donations After the Show',
+    'Cast Available for Photos & Accepting Donations After the Show',
+    'All Volunteer Cast - We do not get Paid',
+    'All Volunteer Cast - We do not get Paid<br><br><span class="pt-5">wait what?!?! i am not getting paid?</span>',
+    ' ',
+    ' ',
     'Attitude Check?'
 ];
 var counter = 0;
