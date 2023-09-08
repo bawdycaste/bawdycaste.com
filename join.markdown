@@ -60,15 +60,15 @@ Most important decisions are made democratically either by departments or at cas
 
 | ROLE | PERSON | EMAIL |
 | ---- | ------ | ----- |
-| Director | Mike | mike@bawdycaste.com |
-| Director | Alex | alex@bawdycaste.com |
-| Financial Secretary | Chris | chris@bawdycaste.com |
+| Director | Alex | Alex@BawdyCaste.com |
+| Director | |  |
+| Financial Secretary | Chris | Chris@BawdyCaste.com |
 | Actoring | Siobhan | siobhanella@gmail.com |
-| Tech | Rob | |
+| Tech | Rob H | |
 | Security | Kayla | |
-| ​Sales | Dave | dave@bawdycaste.com |
+| ​Sales | Dave | Dave@BawdyCaste.com |
 | P.E.N.I.S. | Lux | montes.lux@gmail.com |
-| Preshows | Ayla | |
+| Preshows | Christina | Christina@BawdyCaste.com |
 
 ## GENERAL GUIDELINES
 
