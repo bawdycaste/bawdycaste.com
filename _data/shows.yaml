@@ -1,27 +1,3 @@
-- uuid: bcrhps002
-  title: 
-  date: 2023-10-07
-  time: "Early Show: 7pm, Doors open at 6:30pm"
-  venue: The Guild Theatre
-  location: 949 El Camino Real, Menlo Park, CA 94025
-  link:
-    ticket: https://tixr.com/pr/band/76563 
-    fb: https://www.facebook.com/100039524456826/posts/pfbid02cTWaT6HWDJ4fRhA6SdDjTKUiUdQeT36vtVZ33ZYaAgdVYWS79jBffu7githKFCaul
-    venue: https://www.guildtheatre.com/
-  movie: RHPS
-  special: "Tickets on Sale Now!"
-- uuid: bcrhps003
-  title: 
-  date: 2023-10-07
-  time: "Late Show: 10pm, Doors open at 9:30pm"
-  venue: The Guild Theatre
-  location: 949 El Camino Real, Menlo Park, CA 94025
-  link:
-    ticket: https://tixr.com/pr/band/76564
-    fb: https://www.facebook.com/100039524456826/posts/pfbid02cTWaT6HWDJ4fRhA6SdDjTKUiUdQeT36vtVZ33ZYaAgdVYWS79jBffu7githKFCaul
-    venue: https://www.guildtheatre.com/
-  movie: RHPS
-  special: "Tickets on Sale Now!"
 - uuid: bcrhps004
   title: 
   date: 2023-10-13
