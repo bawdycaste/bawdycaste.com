@@ -64,7 +64,7 @@ layout: main
   </div>
 </div>
 
-<div class="row">
+<div class="row justify-content-evenly align-items-center">
   {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows %}
   <div id="{{show.uuid}}" class="col-12 col-md-4">
     <div class="alert alert-dark border border-4 border-dark p-1 shadow-lg">
@@ -111,13 +111,27 @@ layout: main
   {% endfor %}
 
   <div class="col-8 col-md-4 mx-auto">
-    <img
-      class="img-fluid"
-      style="transform: rotate(-15deg); filter: drop-shadow(6px 6px 6px black)"
-      src="https://storage.googleapis.com/cdn.bawdycaste.com/images/bawdybags.png"
-      alt="participation kits for sale for three dollars, two for five. everything you need to throw blow and glow at the rocky horror picture show"
-    />
+    <div class="alert alert-success border border-success border-5">
+      <div class="row">
+        <div class="col">
+          <h2 class="fofbb">Buy a "Bawdy Bag"</h2>
+          <p class="lead mb-0 pb-0">one for $3 &mdash; two for $5</p>
+          <p class="text-muted small pt-0 mt-0" style="font-weight:lighter;">sharing discouraged</p>
+          <p><strong>Participation Kits</strong>: everything you need to throw, blow, and glow at the <span class="df">rocky horror picture show</span></p>
+        </div>
+        <div class="col col-4">
+          <img
+            class="img-fluid"
+            style="transform: rotate(-15deg); filter: drop-shadow(6px 6px 6px black)"
+            src="https://storage.googleapis.com/cdn.bawdycaste.com/images/bawdybags.png"
+            alt="participation kits for sale for three dollars, two for five. everything you need to throw blow and glow at the rocky horror picture show"
+          />
+        </div>
+      </div>
+      <p>contents may vary, do not feed after midnight, may induce absolute pleasure</p>
+    </div>
   </div>
+
 </div>
 
 <div class="row my-3">
