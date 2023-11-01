@@ -6,3 +6,8 @@ url: "https://bawdycaste.com"
 twitter_username: bawdycaste
 github_username: bawdycaste
 markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
