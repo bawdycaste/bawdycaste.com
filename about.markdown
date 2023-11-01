@@ -1,5 +1,6 @@
 ---
-layout: main
+layout: null
+sitemap: false
 ---
 
 "The Rocky Horror Picture Show" holds significant cultural significance not only globally but also within the San Francisco Bay Area. The region has been a hub for "Rocky Horror" screenings, performances, and shadow casts since the film's release in the 1970s. Here are a few reasons why the film has had a lasting impact on the local culture:

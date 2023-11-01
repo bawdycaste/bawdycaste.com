@@ -1,5 +1,6 @@
 ---
 layout: null
+sitemap: false
 ---
 ![](https://storage.googleapis.com/cdn.bawdycaste.com/images/rainbow%20name_v2.png)
 

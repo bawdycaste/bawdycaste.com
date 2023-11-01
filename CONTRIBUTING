@@ -1,3 +1,6 @@
-
+---
+layout: null
+sitemap: false
+---
 
 bundle config set --local path 'vendor/bundle'
