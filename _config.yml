@@ -6,6 +6,7 @@ permalink: /:categories/:year/:month/:day/:title/
 url: "https://bawdycaste.com"
 logo: https://storage.googleapis.com/bawdycaste/images/bawdycaste_logo.png
 locale: en_US
+
 twitter:
   username: bawdycaste
   card: summary
