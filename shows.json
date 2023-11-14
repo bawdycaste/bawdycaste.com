@@ -1,0 +1,18 @@
+---
+layout: null
+---
+{
+    "shows": [
+        {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows %}
+        {
+            "date": "{{show.date}}",
+            "venue": "{{show.venue}}",
+            "time": "{{show.time}}",
+            "location": "{{show.location}}"
+        },
+        {% endfor %}
+        {
+            "date": "2023-12-31"
+        }
+    ]
+}
