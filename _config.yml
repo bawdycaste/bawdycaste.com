@@ -1,9 +1,10 @@
-title: Rocky Horror with Bawdy Caste
+title: "Bawdy Caste - Rocky Horror"
 tagline: "san francisco's rocky horror picture show shadow cast!"
 email: info@bawdycaste.com
 description: "san francisco's rocky horror picture show shadow cast!"
-permalink: /:categories/:year/:month/:day/:title/
 url: "https://bawdycaste.com"
+author: Bawdy_Caste
+permalink: /:categories/:year/:month/:day/:title/
 logo: https://storage.googleapis.com/bawdycaste/images/bawdycaste_logo.png
 locale: en_US
 
@@ -11,12 +12,23 @@ twitter:
   username: bawdycaste
   card: summary
 
+facebook:
+  publisher: https://www.facebook.com/bawdycaste
+
 social:
   name: Bawdy Caste
   links:
     - https://twitter.com/bawdycaste
     - https://www.facebook.com/bawdycaste
     - https://github.com/bawdycaste
+
+# webmaster_verifications:
+#   google: 1234
+#   bing: 1234
+#   alexa: 1234
+#   yandex: 1234
+#   baidu: 1234
+#   facebook: 1234
 
 github_username: bawdycaste
 markdown: kramdown
