@@ -1,7 +1,7 @@
 - uuid: bcrhps001
   title: 
   date: 2023-12-30
-  time: "doors: 11pm, preshow: 11:30pm, movie: Midnight"
+  time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
@@ -14,7 +14,7 @@
 - uuid: bcrhps002
   title: 
   date: 2023-12-31
-  time: "doors: 11pm, preshow: 11:30pm, movie: Midnight"
+  time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
