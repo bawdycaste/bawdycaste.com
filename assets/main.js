@@ -22,7 +22,7 @@ var counter = 0;
 var message = document.getElementById('message');
 var inst = setInterval(change, 10000);
 
-message.innerHTML = "Attitude Check?";
+message.innerHTML = "Attitude Check?" ;
 function change() {
     message.innerHTML = messages[counter];
     counter++;
