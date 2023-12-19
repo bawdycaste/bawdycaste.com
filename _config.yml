@@ -1,11 +1,14 @@
-title: Rocky Horror with Bawdy Caste
-tagline: "san francisco's rocky horror picture show shadow cast!"
+title: Rocky Horror with the Bawdy Caste
+tagline: "Rocky Horror with the Bawdy Caste"
 email: info@bawdycaste.com
-description: "san francisco's rocky horror picture show shadow cast!"
+description: "San Francisco's Rocky Horror Picture Show Shadow Cast, live at the Balboa Theater the last Saturday of every month!"
 permalink: /:categories/:year/:month/:day/:title/
 url: "https://bawdycaste.com"
 logo: https://storage.googleapis.com/bawdycaste/images/bawdycaste_logo.png
 locale: en_US
+
+facebook:
+  publisher: https://www.facebook.com/bawdycaste
 
 twitter:
   username: bawdycaste
@@ -16,6 +19,7 @@ social:
   links:
     - https://twitter.com/bawdycaste
     - https://www.facebook.com/bawdycaste
+    - https://www.instagram.com/bawdycaste
     - https://github.com/bawdycaste
 
 github_username: bawdycaste
