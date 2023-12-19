@@ -1,3 +1,4 @@
 User-Agent: *
-Alow: /
-Sitemap: https://bawdycaste.com/sitemap.xml
+allow: /
+disallow: /adminteam/
+sitemap: https://bawdycaste.com/sitemap.xml
