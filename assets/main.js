@@ -1,7 +1,7 @@
 ---
 ---
 
-var messages = [
+const messages = [
     'Attitude Check?<br><p class="display-1 pt-5">Fuck You!</p>',
     'Buy a Bawdy Bag',
     'bawdycaste.com',
@@ -19,14 +19,25 @@ var messages = [
     'Attitude Check?'
 ];
 var counter = 0;
-var message = document.getElementById('message');
+const message = document.getElementById('message');
 var inst = setInterval(change, 10000);
 
-message.innerHTML = "Attitude Check?" ;
 function change() {
-    message.innerHTML = messages[counter];
-    counter++;
-    if (counter >= messages.length) {
-        counter = 0;
-    }
+    const messageIndex = messages.indexOf(paragraphElement.textContent) + 1;
+    if (messageIndex >= messages.length) {messageIndex = 0;}
+    paragraphElement.textContent = messages[messageIndex];
+    // message.innerHTML = messages[counter];
+    // counter++;
+    // if (counter >= messages.length) {
+        // counter = 0;
+    // }   
 }
+change();
+
+setInterval(updateText, 60000);
+
+// message.innerHTML = "Attitude Check?" ;
+
+// javascript to change a div with id message to a list of strings every second"
+
+
