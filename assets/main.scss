@@ -1,21 +1,19 @@
 ---
 ---
-
 @font-face {
     font-family: "f13";
-    src: url("https://storage.googleapis.com/bawdycaste/fonts/F13.ttf") format("truetype");
+    src: url(//storage.googleapis.com/bawdycaste/fonts/F13.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "DF";
-    src: url("https://storage.googleapis.com/bawdycaste/fonts/DF.ttf") format("truetype");
+    src: url('http://bawdycaste.storage.googleapis.com/fonts/DF.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "sbitn";
-    src: url("https://storage.googleapis.com/bawdycaste/fonts/SBITN.ttf") format("truetype");
+    src: url('https://storage.googleapis.com/bawdycaste/fonts/SBITN.ttf') format("truetype");
 }
-
 
 @font-face {
     font-family: "fofbb";
@@ -37,8 +35,8 @@
     src: url("https://storage.googleapis.com/bawdycaste/fonts/SS.ttf") format("truetype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 body {
