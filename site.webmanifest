@@ -1,8 +1,8 @@
 ---
 ---
 {
-    "name": "Bawdy Caste Rocky Horror",
-    "short_name": "RHPS",
+    "name": "Bawdy Caste RHPS",
+    "short_name": "bawdycaste",
     "start_url": "{{site.url}}",
     "icons": [
         {
