@@ -1,27 +1,39 @@
 - uuid: bcrhps001
-  title: 
-  date: 2023-12-30
+  title: Rocky Horror
+  date: 2024-01-27
   time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/11722?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb: https://fb.me/e/1qtrrNamY
+    ticket: 
+    fb: 
     venue: https://www.balboamovies.com
-  movie: RHPS
+  movie: rhps
   special: 
-- uuid: bcrhps002
-  title: 
-  date: 2023-12-31
-  time: "doors: 11pm, NYE Celebration begins: 11:30pm"
-  ticketcost: "$15 or $12.50 for Seniors"
-  venue: Balboa Theatre
-  location: 3630 Balboa St, San Francisco, CA 94121
+- uuid: bclebowski001
+  title: The Big Lebowski
+  date: 2024-02-16
+  time: "doors: 6pm, preshow: 6:30pm, show time: 7pm"
+  ticketcost: "$20 or $15.00 for Little Lebowski Urban Achievers"
+  venue: 4-Star Theatre
+  location: 2200 Clement St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/11723?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb: https://fb.me/e/1Jh4eSzyd
-    venue: https://www.balboamovies.com
-  movie: RHPS
-  special: 🎉 New Year's Eve Show! 🎉
-  
+    ticket: 
+    fb: 
+    venue: https://www.4-star-movies.com
+  movie: lebowski
+  special:
+- uuid: bclebowski002
+  title: The Big Lebowski
+  date: 2024-02-17
+  time: "doors: 6pm, preshow: 6:30pm, show time: 7pm"
+  ticketcost: "$20 or $15.00 for Little Lebowski Urban Achievers"
+  venue: 4-Star Theatre
+  location: 2200 Clement St, San Francisco, CA 94121
+  link:
+    ticket: 
+    fb: 
+    venue: https://www.4-star-movies.com
+  movie: lebowski
+  special:
