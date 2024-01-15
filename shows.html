@@ -1,0 +1,15 @@
+---
+layout: main
+---
+<h1 class="font-fofbb display-1 text-center">Bawdy Caste Shows</h1>
+<div class="row">
+    <div class="col col-9 mx-auto">
+            <ul class="list-group list-group-flush rounded">
+                {% for post in site.posts %}
+                <li class="list-group-item">{{ post.date | date_to_string }} &mdash;
+                    <a class="" href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+    </div>
+</div>
