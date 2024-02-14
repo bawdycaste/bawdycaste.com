@@ -65,7 +65,7 @@ Most important decisions are made democratically either by departments or at cas
 | Director | Lexi | Lexi@BawdyCaste.com |
 | Financial Secretary | Chris | Chris@BawdyCaste.com |
 | Actoring | Siobhan | siobhanella@gmail.com |
-| Tech | Rob H | |
+| Tech | Rob H | Rob@BawdyCaste.com |
 | Security | Kayla | Kayla@BawdyCaste.com |
 | ​Sales | Dave | Dave@BawdyCaste.com |
 | P.E.N.I.S. | Lux | montes.lux@gmail.com |
