@@ -1,30 +1,4 @@
-- uuid: bclebowski001
-  title: The Big Lebowski
-  date: 2024-02-16
-  time: "doors: 6pm, preshow: 6:30pm, show time: 7pm"
-  ticketcost: "$15 or $12.50 for Seniors"
-  venue: 4-Star Theatre
-  location: 2200 Clement St, San Francisco, CA 94121
-  link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/11895?siteToken=d2atbcege5knqsavntt91g1250
-    fb: https://fb.me/e/1SburMM77
-    venue: https://www.4-star-movies.com
-  movie: lebowski
-  special:
-- uuid: bclebowski002
-  title: The Big Lebowski
-  date: 2024-02-17
-  time: "doors: 6pm, preshow: 6:30pm, show time: 7pm"
-  ticketcost: "$15 or $12.50 for Seniors"
-  venue: 4-Star Theatre
-  location: 2200 Clement St, San Francisco, CA 94121
-  link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/11896?siteToken=d2atbcege5knqsavntt91g1250
-    fb: https://fb.me/e/1vbJqa9Ho
-    venue: https://www.4-star-movies.com
-  movie: lebowski
-  special:
-- uuid: bcrhps002
+- uuid: bcrhps001
   title: Rocky Horror
   date: 2024-02-24
   time: "doors: 11pm, show time: 11:30pm"
