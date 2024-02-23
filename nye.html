@@ -120,11 +120,11 @@ sitemap: false
         <h1>2023</h1>
     </div>
     <div class="countdown align-items-center">
-        <div class="box d-none">
+        <div class="box">
             <span class="num" id="day-box">00</span>
             <span class="text f13 fs-1 p-0">Days</span>
         </div>
-        <div class="box d-none">
+        <div class="box">
             <span class="num" id="hr-box">00</span>
             <span class="text f13 fs-1 p-0">Hours</span>
         </div>
@@ -144,7 +144,7 @@ sitemap: false
     let hrBox = document.getElementById("hr-box");
     let minBox = document.getElementById("min-box");
     let secBox = document.getElementById("sec-box");
-    let endDate = new Date(2024, 0, 1, 00, 00);
+    let endDate = new Date(2025, 0, 1, 00, 00);
     let endTime = endDate.getTime();
 
     function countdown() {
