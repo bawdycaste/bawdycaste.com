@@ -1,18 +1,5 @@
 - uuid: bcrhps001
   title: Rocky Horror
-  date: 2024-02-24
-  time: "doors: 11pm, show time: 11:30pm"
-  ticketcost: "$15 or $12.50 for Seniors"
-  venue: Balboa Theatre
-  location: 3630 Balboa St, San Francisco, CA 94121
-  link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/11725?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb: https://fb.me/e/66GfcHnSn
-    venue: https://www.balboamovies.com
-  movie: rhps
-  special: 
-- uuid: bcrhps002
-  title: Rocky Horror
   date: 2024-03-30
   time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
@@ -21,6 +8,45 @@
   link:
     ticket: https://ticketing.uswest.veezi.com/purchase/11726?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
     fb:
+    venue: https://www.balboamovies.com
+  movie: rhps
+  special: 
+- uuid: bcrhps002
+  title: Rocky Horror
+  date: 2024-04-27
+  time: "doors: 11pm, show time: 11:30pm"
+  ticketcost: "$15 or $12.50 for Seniors"
+  venue: Balboa Theatre
+  location: 3630 Balboa St, San Francisco, CA 94121
+  link:
+    ticket: https://ticketing.uswest.veezi.com/purchase/12453?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    fb: 
+    venue: https://www.balboamovies.com
+  movie: rhps
+  special: 
+- uuid: bcrhps003
+  title: Rocky Horror
+  date: 2024-05-25
+  time: "doors: 11pm, show time: 11:30pm"
+  ticketcost: "$15 or $12.50 for Seniors"
+  venue: Balboa Theatre
+  location: 3630 Balboa St, San Francisco, CA 94121
+  link:
+    ticket: https://ticketing.uswest.veezi.com/purchase/12454?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    fb: 
+    venue: https://www.balboamovies.com
+  movie: rhps
+  special: 
+- uuid: bcrhps004
+  title: Rocky Horror
+  date: 2024-06-29
+  time: "doors: 11pm, show time: 11:30pm"
+  ticketcost: "$15 or $12.50 for Seniors"
+  venue: Balboa Theatre
+  location: 3630 Balboa St, San Francisco, CA 94121
+  link:
+    ticket: https://ticketing.uswest.veezi.com/purchase/12455?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    fb: 
     venue: https://www.balboamovies.com
   movie: rhps
   special: 
