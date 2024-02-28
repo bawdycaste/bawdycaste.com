@@ -1,12 +1,13 @@
 ---
 layout: main
-title: Next Show
+title: Next Bawdy Caste Show
+description: the next show is {{site.data.shows[0].title}} at {{site.data.shows[0].venue}} on {{site.data.shows[0].date | date: "%a %b %d, %Y"}} at {{site.data.shows[0].time}}. Tickets are {{site.data.shows[0].ticketcost}}.
 image: https://bawdycaste.com/images/facebook-header.jpg
 ---
 
 <div class="row mt-5 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-xl-3  justify-content-evenly align-items-center">
     {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows | limit: 1 %}
-    <div id="{{show.uuid}}" class="col">
+    <div id="{{show.uuid}}" class="col my-5">
       <div class="alert alert-dark border border-4 {% if show.movie == 'rhps' %}border-dark{% endif %}{% if show.movie == 'lebowski' %}border-warning{% endif %} p-1 shadow-lg">
         <h2 class="alert-header text-center fw-bold">
           {{show.date | date: "%a %b %d, %Y"}}
