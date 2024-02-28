@@ -14,7 +14,7 @@ twitter:
   username: bawdycaste
   card: summary
 
-nextshow: "{{site.data.shows[0].date | date: "%A %B %d, %Y"}}"
+nextshow: '{{site.data.shows[0].date | date: "%A %B %d, %Y"}}'
 
 social:
   name: Bawdy Caste
