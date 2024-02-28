@@ -5,6 +5,7 @@ description: "San Francisco's Rocky Horror Picture Show Shadow Cast, live at the
 permalink: /:categories/:year/:month/:day/:title/
 url: "https://bawdycaste.com"
 logo: https://storage.googleapis.com/bawdycaste/images/bawdycaste_logo.png
+image: https://storage.googleapis.com/bawdycaste/images/facebook-header.jpg
 locale: en_US
 
 facebook:
