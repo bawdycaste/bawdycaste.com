@@ -1,9 +1,14 @@
 ---
-title: 'Next Bawdy Caste Show'
-description: the next show is {{site.data.shows[0].title}} at {{site.data.shows[0].venue}} on {{site.data.shows[0].date | date: "%a %b %d, %Y"}}
-image: 'https://bawdycaste.com/images/facebook-header.jpg'
 layout: main
+title: "Next Bawdy Caste Show"
+description: "our next show is {{site.nextshow}}"
 ---
+
+<div class="row">
+    <div class="col text-center">
+        <h1 class="display-1 text-uppercase fofbb text-black">OUR NEXT SHOW IS {{site.data.shows[0].date | date: "%A %B %d, %Y"}}</h1>
+    </div>
+</div>
 
 <div class="row mt-5 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-xl-3  justify-content-evenly align-items-center">
     {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows | limit: 1 %}
