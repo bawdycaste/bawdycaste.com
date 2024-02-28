@@ -62,4 +62,4 @@
     fb: 
     venue: https://www.balboamovies.com
   movie: rhps
-  special: 'Rocky Horror <span class="text-black">Horror</span> Picture Show'
+  special: '<span class="text-red">Rocky Horror <span class="text-black">Horror</span> Picture Show</span>'
