@@ -86,4 +86,4 @@ Most important decisions are made democratically either by departments or at cas
 3. Read and sign the [Photo Capture and Image Release Agreement](https://forms.gle/ohp5m42qWdFJBpwr5)
 4. Join [Discord](https://discord.gg/a7HgFtgTxD), and select stuff that interests you in **#discord-roles**
 5. Attend your first show as a cast member
-6. Pay dues: (https://bawdycaste.com/dues/) (Or you can do this at your first show)
+6. [Pay dues](https://bawdycaste.com/dues/) (Or you can do this at your first show)
