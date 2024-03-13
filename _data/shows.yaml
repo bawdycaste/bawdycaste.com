@@ -16,12 +16,25 @@
   date: 2024-04-20
   time: "doors: 3:50pm, preshow: 4:00pm, show time: 4:20pm"
   ticketcost: "$20 or $15.00 for Little Lebowski Urban Achievers"
-  venue: 4-Star Theatre
-  location: 2200 Clement St, San Francisco, CA 94121
+  venue: Balboa Theatre
+  location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    # ticket: https://ticketing.uswest.veezi.com/purchase/11895?siteToken=d2atbcege5knqsavntt91g1250
+    ticket:
     fb: 
-    venue: https://www.4-star-movies.com
+    venue: https://www.balboamovies.com
+  movie: lebowski
+  special:
+- uuid: bclebowski002
+  title: The Big Lebowski
+  date: 2024-04-20
+  time: "doors: 7:50pm, preshow: 8:00pm, show time: 8:20pm"
+  ticketcost: "$20 or $15.00 for Little Lebowski Urban Achievers"
+  venue: Balboa Theatre
+  location: 3630 Balboa St, San Francisco, CA 94121
+  link:
+    ticket:
+    fb: 
+    venue: https://www.balboamovies.com
   movie: lebowski
   special:
 - uuid: bcrhps002
