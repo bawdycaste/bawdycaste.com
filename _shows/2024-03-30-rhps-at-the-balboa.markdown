@@ -1,11 +1,13 @@
 ---
-layout: article
-category: rhpy
+layout: show
+category: RHPS
 collections: shows
+movie: rocky horror
+theater: balboa
+photos:
+video:
 ---
-
-# {{page.date | date: '%s'}}  
-**Date:** {{ page.date | date_to_long_string: "ordinal", "US" }}
+## Casting
 
 Frank - Julie  
 Janet - Sonja  

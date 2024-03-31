@@ -19,7 +19,6 @@
     font-display: swap;
 }
 
-
 @font-face {
     font-family: "fofbb";
     src: url("/assets/fonts/FOFBB.ttf") format("truetype");
@@ -198,3 +197,6 @@ hr.style-eight:after {
 body{
     width:100%;
 }
+
+#reveal{display:none;}
+#reveal:target{display:flex;}
