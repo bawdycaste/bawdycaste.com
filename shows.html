@@ -1,0 +1,16 @@
+---
+layout: main
+---
+<div class="row">
+  <div class="col">
+    <h2>Recent Shows</h2>
+    <ul class="list-group list-group-flush">
+      {% for show in site.shows %}
+      <li class="list-group-item">
+        <a href="{{ show.url }}">{{ show.date | date: '%b %d, %Y' }} - {{show.category}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
