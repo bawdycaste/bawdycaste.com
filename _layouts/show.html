@@ -1,0 +1,25 @@
+---
+layout: main
+---
+
+<div class="container text-dark bg-light rounded p-3 border border-dark border-3">
+  <div class="row mb-3">
+    <div class="col">
+      <p><strong>Date:</strong> {{ page.date | date_to_long_string: "ordinal", "US" }}<br />
+      <strong>Movie:</strong> {{page.movie}}<br />
+      <strong>Theater:</strong> {{page.theater}}</p>
+        <div id="reveal" class="btn-group">
+          <a class="btn btn-outline-primary" href="{{page.photos}}" target="_blank">Photos</a>
+          <a class="btn btn-outline-dark" href="{{page.video}}" target="_blank">Video</a>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">{{ content }}</div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p><strong>UNQ</strong>{{page.date | date: '%s'}}</p>
+    </div>
+  </div>
+</div>
