@@ -11,6 +11,11 @@ locale: en_US
 facebook:
   publisher: https://www.facebook.com/bawdycaste
 
+collections:
+  shows:
+    output: true
+    permalink: /:collection/:name/
+
 twitter:
   username: bawdycaste
   card: summary
