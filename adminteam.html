@@ -1,28 +1,32 @@
 ---
 layout: main
-title: Bawdy Caste Admin Team
+title: Admin Team
 sitemap: false
 ---
 <div class="row">
     <div class="col">
-        <h1 class="text-center df display-2" style="text-shadow: 4px 4px white;">{{page.title}}</h1>
+        <h1 class="text-center df">{{page.title}}</h1>
     </div>
 </div>
 
-<div class="row row-cols-1 row-cols-lg-2">
+<div class="row row-cols-3  g-2">
     {% for admin in site.data.adminteam %}
-    <div class="col p-3 {% if admin.name == "[none]" %}d-none{%endif%}">
-        <div class="row bg-dark text-light border border-3 border-secondary p-1 rounded">
-            <div class="col col-4">
-                <img src="{{admin.photo}}" alt="{{admin.name}}" class="img-fluid">
-            </div>
-            <div class="col col-8">
-                <h4 class="card-title">{{admin.name}}&nbsp;<span class="fw-normal text-muted">{{admin.pronouns}}</span></h4>
+    <div class="col">
+        <div class="card">
+            {% if admin.photo == blank? %}
+            <img src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/aa8ec27a-43e0-46ed-0b2a-6f4637545800/blur" class="card-img-top" alt="placeholder photo">
+            {% else %}
+            <img src="{{admin.photo}}" class="card-img-top" alt="{{admin.name}}">
+            {% endif %}
+            <h4 class="card-title px-1">{{admin.name}}&nbsp;<span class="fw-normal text-warning">{{admin.pronouns}}</span>
+            </h4>
+            <div class="card-body m-0 p-1">
                 <h5>{{admin.position}}</h5>
-                <p><a href="mailto:{{admin.email}}" class="link-danger fw-bold">{{admin.email}}</a></p>
+                    <a class="btn btn-danger form-control" href="mailto:{{admin.email}}">email</a>
                 <p>{{admin.description}}</p>
             </div>
         </div>
     </div>
     {% endfor %}
 </div>
+{% include footer.html %}
