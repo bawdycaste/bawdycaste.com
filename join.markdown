@@ -1,7 +1,8 @@
 ---
-layout: null
+layout: article
 sitemap: false
 ---
+
 ![](https://storage.googleapis.com/bawdycaste/images/rainbow%20name_v2.png)
 
 # Joining the Cast
