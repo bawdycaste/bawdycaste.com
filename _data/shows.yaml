@@ -63,7 +63,7 @@
     venue: https://www.guildtheatre.com/
   movie: rhps
   special: 'Tickets go on sale April 8th!'
-  - uuid: bcrhps005
+- uuid: bcrhps005
   title: Rocky Horror
   date: 2024-06-21
   time: "doors: 9:30pm, show time: 10pm"
