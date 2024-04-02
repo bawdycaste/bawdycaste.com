@@ -19,7 +19,7 @@
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket:
+    ticket: https://ticketing.uswest.veezi.com/purchase/12784?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
     fb: 
     venue: https://www.balboamovies.com
   movie: lebowski
@@ -27,12 +27,12 @@
 - uuid: bclebowski002
   title: The Big Lebowski
   date: 2024-04-20
-  time: "doors: 7:50pm, preshow: 8:00pm, show time: 8:20pm"
+  time: "doors: 7:30pm, preshow: 7:50pm, show time: 8:00pm"
   ticketcost: "$20 or $15.00 for Little Lebowski Urban Achievers"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket:
+    ticket: https://ticketing.uswest.veezi.com/purchase/12785?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
     fb: 
     venue: https://www.balboamovies.com
   movie: lebowski
