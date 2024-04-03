@@ -4,6 +4,7 @@ category: RHPS
 collections: shows
 movie: rocky horror
 theater: balboa
+date: 2024-02-25
 photos: https://storage.googleapis.com/photos.bawdycaste.com/20240225/index.html
 video: https://storage.googleapis.com/videos.bawdycaste.com/2024/20240225.mp4
 ---
