@@ -2,6 +2,7 @@
 layout: show
 category: RHPS
 collections: shows
+date: 2024-03-30
 movie: rocky horror
 theater: balboa
 photos:
