@@ -54,28 +54,28 @@
   title: Rocky Horror
   date: 2024-06-21
   time: "doors: 6:30pm, show time: 7:00pm"
-  ticketcost:
+  ticketcost: $15
   venue: The Guild
   location: 949 El Camino Real, Menlo Park CA 94025
   link:
-    ticket:
-    fb:
+    ticket: https://www.tixr.com/groups/guildtheatre/events/rocky-horror-picture-show-ft-bawdy-caste-early--100916
+    fb: https://www.facebook.com/100039524456826/posts/pfbid02U8qNy4KvsR9h6pVB4xFHuzR26zZ1FvRF6AqgnDuANpLXWkRQ43NkWiknwWoCd686l/?mibextid=cr9u03
     venue: https://www.guildtheatre.com/
   movie: rhps
-  special: 'Tickets go on sale April 8th!'
+  special: 'Tickets on sale NOW!'
 - uuid: bcrhps005
   title: Rocky Horror
   date: 2024-06-21
   time: "doors: 9:30pm, show time: 10pm"
-  ticketcost: 
+  ticketcost: $15
   venue: The Guild
   location: 949 El Camino Real, Menlo Park CA 94025
   link:
-    ticket: 
-    fb: 
+    ticket: https://www.tixr.com/groups/guildtheatre/events/rocky-horror-picture-show-ft-bawdy-caste-late--101256
+    fb: https://www.facebook.com/100039524456826/posts/pfbid02U8qNy4KvsR9h6pVB4xFHuzR26zZ1FvRF6AqgnDuANpLXWkRQ43NkWiknwWoCd686l/?mibextid=cr9u03
     venue: https://www.guildtheatre.com/
   movie: rhps
-  special: 'Tickets go on sale April 8th!'
+  special: 'Tickets on sale NOW!'
 - uuid: bcrhps006
   title: Rocky Horror
   date: 2024-06-29
