@@ -5,8 +5,8 @@ collections: shows
 date: 2024-03-30
 movie: rocky horror
 theater: balboa
-photos:
-video:
+photos: https://storage.googleapis.com/photos.bawdycaste.com/20240330/index.html
+video: https://storage.cloud.google.com/videos.bawdycaste.com/2024/20240330.mp4
 ---
 ## Casting
 

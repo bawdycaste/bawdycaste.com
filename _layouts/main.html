@@ -29,6 +29,7 @@ layout: default
             }
         </script>
 
+{% if page.chat == true %}
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -42,5 +43,6 @@ layout: default
         })();
     </script>
     <!--End of Tawk.to Script-->
+{% endif %}
 
 </body>
