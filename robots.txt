@@ -1,4 +1,16 @@
-User-Agent: *
+---
+layout: null
+---
+user-agent: *
+crawl-delay: 10
 allow: /
 disallow: /adminteam/
-sitemap: https://bawdycaste.com/sitemap.xml
+disallow: /screen/balboa
+disallow: /discord/
+disallow: /dues/
+disallow: /donate/
+disallow: /obcf/
+disallow: /survey/
+disallow: /shows/
+disallow: /lebowski/
+sitemap: {{ site.url }}/sitemap.xml
