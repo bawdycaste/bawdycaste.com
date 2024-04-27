@@ -87,6 +87,16 @@
 </script>
 <!-- end microosft clarity -->
 
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(function(OneSignal) {
+        OneSignal.init({
+              appId: "8fd928da-a567-4ee6-b43d-aec126cf0898",
+                  });
+                    });
+                    </script>
+
   {% endif %}
 </head>
 
