@@ -9,15 +9,14 @@ sitemap: false
 
 These next few pages are intended as a rough guide to how we do things around here. 
 They should answer most questions you may have regarding behavior and the protocol for onstage and backstage situations, as well as how we, as a cast, make decisions. 
+
 If you still have questions, feel free to ask anyone face-to-face, call or email. We also have a full set of [bylaws](https://bylaws.bawdycaste.com).
 
 ## FIRST STEPS
 
 The best way to get involved on cast is to jump right in! Introduce yourself, talk to folks, ask questions, tell stories, try new things. We love new members and can’t wait to get to know you better! There are a few main ways to reach out to the cast:  
 
-**Email:** We use an email list for cast announcements. The email address you write in below will get added to our mailing list. Please check your email regularly so you don’t miss anything! We’ve had a couple people lose cast emails to their spam filter, so when you’re added to the list double-check that you get the welcome email. You can also email the cast directors at [directors@bawdycaste.com](mailto:directors@bawdycaste.com).
-
-**Discord:** Most of the day-to-day cast communication happens through Discord, a chat management platform. It’s a free software that you can install on your phone or computer, or you can access it through a web browser. We use Discord for everything from cast discussions and meetings to cat pictures, and it’s a great way to get to know people and learn about what’s going on around the cast. There is a link to join at the bottom of this page. Once you have joined, introduce yourself in the #welcome channel, and wait for a Director to grant you the `@Cast Member` role so you can see all the channels.
+**Discord:** Most of the day-to-day cast communication happens through Discord. It’s a free software that you can install on your phone or computer, or you can access it through a web browser. We use Discord for everything from cast discussions and meetings to cat pictures, and it’s a great way to get to know people and learn about what’s going on around the cast. There is a link to join at the bottom of this page. Once you have joined, introduce yourself in the **#welcome** channel, and wait for a Director to grant you the `@Cast Member` role so you can see all the channels.
 
 **At Shows:** Of course, the best way to get to know the cast is to come to the shows! You’re not required to come to every show, but we’d love to have you at as many shows as possible! If you’re worried about getting to/from shows, people will be happy to give you a ride (Discord is a great place to ask!).
 
@@ -62,15 +61,15 @@ Most important decisions are made democratically either by departments or at cas
 
 | ROLE | PERSON | EMAIL |
 | ---- | ------ | ----- |
-| Director | Alex | Alex@BawdyCaste.com |
-| Director | Lexi | Lexi@BawdyCaste.com |
-| Financial Secretary | Chris | Chris@BawdyCaste.com |
+| Director | Julie | julie@bawdycaste.com |
+| Director | Lexi | lexi@bawdycaste.com |
+| Financial Secretary | Chris | chris@bawdycaste.com |
 | Actoring | Siobhan | siobhanella@gmail.com |
-| Tech | Rob H | Rob@BawdyCaste.com |
-| Security | Kayla | Kayla@BawdyCaste.com |
-| ​Sales | Dave | Dave@BawdyCaste.com |
+| Tech | Rob H | rob@bawdycaste.com |
+| Security | Kayla | kayla@bawdycaste.com |
+| ​Sales | Dave | dave@bawdycaste.com |
 | P.E.N.I.S. | Lux | montes.lux@gmail.com |
-| Preshows | Christina | Christina@BawdyCaste.com |
+| Preshows | Christina | christina@bawdycaste.com |
 
 ## GENERAL GUIDELINES
 
@@ -78,13 +77,14 @@ Most important decisions are made democratically either by departments or at cas
 
 **Discrimination​:**  Yes, offensive jokes make up a large part of our Audience Participation (AP) lines. However, intentionally cruel remarks about anyone’s sex, race, religions (or lack thereof), sexual preference, gender identity, etc… are not to be tolerated. Be offensive, be shocking, but pay attention to whether you are punching up or punching down.  The foundation of our cast is the belief that everyone is accepted and worthy of respect. If you are offended by someone’s remark, even if they might be joking, please make them aware that what they are saying is hurtful. They probably don’t even realize it. If any behavior makes you feel uncomfortable, you are encouraged to bring it to anyone on cast leadership.  
 
-**Priorities:** Your health, family, school, work, D&D campaigns, cat’s birthday party, and underground fight club (shhhhh), are more important than Rocky. It is understandable and perfectly acceptable to “check out” of shows for personal obligations. While we expect people to participate and be active members while on cast, we also realize that Rocky is not 100% of anyone’s life, and don’t expect anyone to treat it as such. But please try to give your fellow cast mates as much notice as you can when checking out of a show so that they don’t need to scramble.  
+**Priorities:** Your health, family, school, work, D&D campaigns, cat’s birthday party, and underground fight club *(shhhhh)*, are more important than Rocky. It is understandable and perfectly acceptable to “check out” of shows for personal obligations. While we expect people to participate and be active members while on cast, we also realize that Rocky is not 100% of anyone’s life, and don’t expect anyone to treat it as such. However, please try to give your fellow cast mates as much notice as you can when checking out of a show so that we don’t need to scramble.  
 
 # Steps to Join Cast
 
 1. Read this page...
 2. Fill out the [Cast Member Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSeL46Dg3M8Vd9IROYPFJlsngS9UZrGCqXzswnIopG9wEK5hTQ/viewform?usp=sf_link)
 3. Read and sign the [Photo Capture and Image Release Agreement](https://forms.gle/ohp5m42qWdFJBpwr5)
-4. Join [Discord](https://discord.gg/a7HgFtgTxD), and select stuff that interests you in **#discord-roles**
-5. Attend your first show as a cast member
+4. Read and sign the [Membership Agreement and Volunteer Waiver]()
+5. Join [Discord](https://discord.gg/a7HgFtgTxD), and select stuff that interests you in **#discord-roles**
 6. [Pay dues](https://bawdycaste.com/dues/) (Or you can do this at your first show)
+7. Attend your first show as a cast member
