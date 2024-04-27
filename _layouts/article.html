@@ -4,6 +4,11 @@ layout: main
 
 <div class="container">
   <div class="row mb-3">
-    <div class="col rounded text-dark bg-light">{{ content }}</div>
+    <div class="col rounded text-dark bg-light p-3 border border-dark border-5">
+      {% if page.title != blank? %}
+      <h2 class="fofbb">{{page.title}}</h2>
+    {% endif %}
+      {{ content }}
+    </div>
   </div>
 </div>
