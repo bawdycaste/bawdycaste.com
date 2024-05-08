@@ -11,7 +11,7 @@ published: false
 
 2. Interactive and Participatory Experience: "The Rocky Horror Picture Show" encourages audience participation, creating an interactive and immersive experience. Bay Area audiences embraced this aspect of the film, with enthusiastic participation in callbacks, costume contests, and prop usage during screenings. This interactivity allowed people to connect, bond, and express themselves creatively.
 
-3. Shadow Cast Performances: The San Francisco Bay Area has been home to numerous talented and dedicated shadow casts. These groups, such as the Bawdy Caste (if they are indeed associated with the Bay Area), added an extra layer of live performance to screenings, bringing the characters to life on stage while the film played. Shadow cast performances became a cherished tradition and showcased the local talent and creativity within the community.
+3. Shadow Cast Performances: The San Francisco Bay Area has been home to numerous talented and dedicated shadow casts. These groups, such as the Bawdy Caste &trade; (if they are indeed associated with the Bay Area), added an extra layer of live performance to screenings, bringing the characters to life on stage while the film played. Shadow cast performances became a cherished tradition and showcased the local talent and creativity within the community.
 
 4. Historic Theaters: The San Francisco Bay Area boasts historic theaters that have become iconic venues for "Rocky Horror" screenings. The Castro Theatre in San Francisco, in particular, has hosted regular screenings of the film for decades and is known for its lively and energetic audience participation. These theaters became cultural landmarks and gathering places for fans of the film.
 
