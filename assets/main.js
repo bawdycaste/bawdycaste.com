@@ -2,12 +2,14 @@
 ---
 
 const messages = [
-    'Attitude Check?<br><p class="display-1 pt-5">Fuck You!</p>',
-    'Buy a Bawdy Bag',
+    // 'Attitude Check?<br><p class="display-1 pt-5">Fuck You!</p>',
+    '<img class="img-fluid m-0 p-0 rounded" width="33%" src="https://storage.googleapis.com/bawdycaste/images/website_qrcode.png">',
+    'Buy a Bawdy Bag&trade;',
+    'Get Up and Dance!',
     'bawdycaste.com',
-    'Hormone Check?',
-    'Hormone Check?<br><p class="pt-5">Fuck Me!</p>',
-    'Follow Us on Social Media',
+    // 'Hormone Check?',
+    // 'Hormone Check?<br><p class="pt-5">Fuck Me!</p>',
+    '@bawdycaste',
     'Donate to Support the Show',
     'Buy a Large Popcorn!',
     'Join our Cast!',
@@ -18,13 +20,14 @@ const messages = [
     ' ',
     ' ',
     ' ',
-    'Attitude Check?'
+    ' '
+    // 'Attitude Check?'
 ];
 var counter = 0;
 var message = document.getElementById('message');
 var inst = setInterval(change, 10000);
 
-message.innerHTML = "Attitude Check?" ;
+message.innerHTML = "bawdycaste.com" ;
 function change() {
     message.innerHTML = messages[counter];
     counter++;
