@@ -5,12 +5,12 @@ sitemap: false
 
 <img class="img-fluid" src="https://storage.googleapis.com/bawdycaste/images/rainbow%20name_v2.png">
 
-# Joining the Cast
+# HOW TO JOIN THE CAST
 
-These next few pages are intended as a rough guide to how we do things around here. 
-They should answer most questions you may have regarding behavior and the protocol for onstage and backstage situations, as well as how we, as a cast, make decisions. 
+This page is intended as a rough guide to how we do things around here. 
+It should answer most questions you may have regarding behavior and the protocol for onstage and backstage situations, as well as how we, as a cast, make decisions. 
 
-If you still have questions, feel free to ask anyone face-to-face, call or email. We also have a full set of [bylaws](https://bylaws.bawdycaste.com).
+If you still have questions, feel free to ask on Discord. We also have a full set of [bylaws](https://bylaws.bawdycaste.com).
 
 ## FIRST STEPS
 
@@ -23,7 +23,8 @@ The best way to get involved on cast is to jump right in! Introduce yourself, ta
 ## CAST RESPONSIBILITIES
 
 There aren’t many formal requirements or expectations for cast members--for the most part, you can decide how involved you want to be. That said, here are a few things we do expect from everyone:
-Staying in Touch: It doesn’t really matter how--emails, Discord messages, texts, phone calls, whatever. Just keep in touch so we know what’s up! If you know you won’t be available (or can’t be reached) for a while, send the directors a message so they can let people know.
+
+**Staying in Touch:** It doesn’t really matter how -- Discord messages, texts, phone calls, whatever. Just keep in touch so we know what’s up! If you know you won’t be available (or can’t be reached) for a while, send the directors a message so they can let people know.
 
 **Checking In and Attending Shows:** Pretty much everything on cast revolves around our regular performances. There’s always something to do at shows, and we’re happy to have you as often as you can make it! The cast directors send out periodic reminders to check in for the shows, and all you need to do is respond saying if you can make it or not. Then the directors will announce casting (usually about a week before the show), which describes what roles (on-stage and off-stage) everyone will be performing that week. If you have any questions or comments around casting, just contact the directors.
 
@@ -61,15 +62,15 @@ Most important decisions are made democratically either by departments or at cas
 
 | ROLE | PERSON | EMAIL |
 | ---- | ------ | ----- |
-| Director | Julie | julie@bawdycaste.com |
-| Director | Lexi | lexi@bawdycaste.com |
-| Financial Secretary | Chris | chris@bawdycaste.com |
-| Actoring | Siobhan | siobhanella@gmail.com |
-| Tech | Rob H | rob@bawdycaste.com |
-| Security | Kayla | kayla@bawdycaste.com |
-| ​Sales | Dave | dave@bawdycaste.com |
-| P.E.N.I.S. | Lux | montes.lux@gmail.com |
-| Preshows | Christina | christina@bawdycaste.com |
+| Director | **Julie** | julie@bawdycaste.com |
+| Director | **Lexi** | lexi@bawdycaste.com |
+| Financial Secretary | **Chris** | chris@bawdycaste.com |
+| Actoring | **Siobhan** | siobhanella@gmail.com |
+| Tech | **Rob** | rob@bawdycaste.com |
+| Security | **Kayla** | kayla@bawdycaste.com |
+| ​Sales | **Dave** | dave@bawdycaste.com |
+| P.E.N.I.S. | **Lux** | montes.lux@gmail.com |
+| Preshows | **Christina** | christina@bawdycaste.com |
 
 ## GENERAL GUIDELINES
 
@@ -77,7 +78,7 @@ Most important decisions are made democratically either by departments or at cas
 
 **Discrimination​:**  Yes, offensive jokes make up a large part of our Audience Participation (AP) lines. However, intentionally cruel remarks about anyone’s sex, race, religions (or lack thereof), sexual preference, gender identity, etc… are not to be tolerated. Be offensive, be shocking, but pay attention to whether you are punching up or punching down.  The foundation of our cast is the belief that everyone is accepted and worthy of respect. If you are offended by someone’s remark, even if they might be joking, please make them aware that what they are saying is hurtful. They probably don’t even realize it. If any behavior makes you feel uncomfortable, you are encouraged to bring it to anyone on cast leadership.  
 
-**Priorities:** Your health, family, school, work, D&D campaigns, cat’s birthday party, and underground fight club *(shhhhh)*, are more important than Rocky. It is understandable and perfectly acceptable to “check out” of shows for personal obligations. While we expect people to participate and be active members while on cast, we also realize that Rocky is not 100% of anyone’s life, and don’t expect anyone to treat it as such. However, please try to give your fellow cast mates as much notice as you can when checking out of a show so that we don’t need to scramble.  
+**Priorities:** Your health, family, school, work, D&D campaigns, cat’s birthday party, and underground fight club *(shhhhh)*, are more important than Rocky. It is understandable and perfectly acceptable to “check out” of shows for personal obligations. While we expect people to participate and be active members while on cast, we also realize that **rocky horror is not 100% of anyone’s life**, and don’t expect anyone to treat it as such. However, please try to give your fellow cast mates as much notice as you can when checking out of a show so that we don’t need to scramble.  
 
 # Steps to Join Cast
 
