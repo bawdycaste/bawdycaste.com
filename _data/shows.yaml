@@ -41,7 +41,7 @@
   title: Rocky Horror
   date: 2024-10-18
   time: "doors: 7pm"
-  ticketcost: "$22"
+  ticketcost: "General Admission $22"
   venue: Greater Nevada Field
   location: 250 Evans Ave, Reno, NV 88501
   link:
@@ -49,4 +49,4 @@
     fb: 
     venue: https://www.milb.com/reno/team/club-information
   movie: rhps
-  special: <span class="f13">"Tickets on sale August 16"<br></span> 
+  special: Tickets on sale August 16
