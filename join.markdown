@@ -61,7 +61,7 @@ Most important decisions are made democratically either by departments or at cas
 ### CURRENT ELECTED LEADERSHIP:
 
 | ROLE | PERSON | EMAIL |
-| ---- | ------ | ----- |
+| ---- | -----: | ----: |
 | Director | **Julie** | julie@bawdycaste.com |
 | Director | **Lexi** | lexi@bawdycaste.com |
 | Financial Secretary | **Chris** | chris@bawdycaste.com |
