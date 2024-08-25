@@ -1,4 +1,4 @@
-- uuid: bcrhps003
+- uuid: bcrhps001
   title: Rocky Horror
   date: 2024-08-31
   time: "doors: 11pm, show time: 11:30pm"
@@ -11,7 +11,7 @@
     venue: https://www.balboamovies.com
   movie: rhps
   special: <span class="f13" style="color:#009900">🏖️🦀🐙👙🏄‍♀️ Special <u>Summer Beach Party</u> themed show! 🏄🌴🐬🐳🐠<br></span>  
-- uuid: bcrhps004
+- uuid: bcrhps002
   title: Rocky Horror
   date: 2024-09-28
   time: "doors at 11pm, show at 11:30pm"
@@ -24,6 +24,32 @@
     venue: https://www.balboamovies.com
   movie: rhps
   special: 
+- uuid: bcrhps003
+  title: Rocky Horror
+  date: 2024-10-18
+  time: "doors: 7pm"
+  ticketcost: "General Admission $22"
+  venue: Greater Nevada Field
+  location: 250 Evans Ave, Reno, NV 88501
+  link:
+    ticket: https://mpv.tickets.com/?orgId=53089&agency=RENV_PLAGENCY_MPV&eventId=15879
+    fb: https://www.facebook.com/bawdycaste/posts/pfbid0RKkfiJ587t8tK5Sqfmhrsq9VUVT6vnoUuHNazHYcLxFsnPBQamqn62KCAKxA94d9l
+    venue: https://www.milb.com/reno/team/club-information
+  movie: rhps
+  special: Tickets on sale Now!
+- uuid: bcrhps004
+  title: Rocky Horror
+  date: 2024-10-19
+  time: "doors: 7pm"
+  ticketcost: "General Admission $22"
+  venue: Greater Nevada Field
+  location: 250 Evans Ave, Reno, NV 88501
+  link:
+    ticket: https://mpv.tickets.com/?orgId=53089&agency=RENV_PLAGENCY_MPV&eventId=15880
+    fb: https://www.facebook.com/bawdycaste/posts/pfbid0RKkfiJ587t8tK5Sqfmhrsq9VUVT6vnoUuHNazHYcLxFsnPBQamqn62KCAKxA94d9l
+    venue: https://www.milb.com/reno/team/club-information
+  movie: rhps
+  special: Tickets on sale Now!
 - uuid: bcrhps005
   title: Rocky Horror
   date: 2024-10-26
@@ -37,29 +63,16 @@
     venue: https://www.balboamovies.com
   movie: rhps
   special:
-- uuid: bcrhps005
+- uuid: bcrhps006
   title: Rocky Horror
-  date: 2024-10-18
-  time: "doors: 7pm"
-  ticketcost: "General Admission $22"
-  venue: Greater Nevada Field
-  location: 250 Evans Ave, Reno, NV 88501
+  date: 2024-10-31
+  time: "doors: 9pm, show time: 9:30pm"
+  ticketcost: "$15 or $12.50 for Seniors"
+  venue: Balboa Theatre
+  location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://mpv.tickets.com/?orgId=53089&agency=RENV_PLAGENCY_MPV&eventId=15879
+    ticket: https://ticketing.uswest.veezi.com/purchase/13919?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
     fb: 
-    venue: https://www.milb.com/reno/team/club-information
+    venue: https://www.balboamovies.com
   movie: rhps
-  special: Tickets on sale August 16
-- uuid: bcrhps005
-  title: Rocky Horror
-  date: 2024-10-19
-  time: "doors: 7pm"
-  ticketcost: "General Admission $22"
-  venue: Greater Nevada Field
-  location: 250 Evans Ave, Reno, NV 88501
-  link:
-    ticket: https://mpv.tickets.com/?orgId=53089&agency=RENV_PLAGENCY_MPV&eventId=15880
-    fb: 
-    venue: https://www.milb.com/reno/team/club-information
-  movie: rhps
-  special: Tickets on sale August 16
+  special: Special start time!
