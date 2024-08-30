@@ -63,7 +63,7 @@ Most important decisions are made democratically either by departments or at cas
 | ROLE | PERSON | EMAIL |
 | ---- | -----: | ----: |
 | Director | **Julie** | julie@bawdycaste.com |
-| Director | **Lexi** | lexi@bawdycaste.com |
+| Director | **Kayla** | kayla@bawdycaste.com |
 | Financial Secretary | **Chris** | chris@bawdycaste.com |
 | Actoring | **Siobhan** | siobhanella@gmail.com |
 | Tech | **Rob** | rob@bawdycaste.com |
