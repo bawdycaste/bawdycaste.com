@@ -15,6 +15,9 @@ collections:
   shows:
     output: true
     permalink: /:collection/:name/
+  posts:
+    output: true
+    permalink: /:collection/:title/
 
 twitter:
   username: bawdycaste
