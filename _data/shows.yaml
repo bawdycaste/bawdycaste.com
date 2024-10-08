@@ -1,20 +1,7 @@
-- uuid: bcrhps002
-  title: Rocky Horror
-  date: 2024-09-28
-  time: "doors at 11pm, show at 11:30pm"
-  ticketcost: "$15 or $12.50 for Seniors"
-  venue: Balboa Theatre
-  location: 3630 Balboa St, San Francisco, CA 94121
-  link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/13500?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb:
-    venue: https://www.balboamovies.com
-  movie: rhps
-  special:
 - uuid: bcrhps003
   title: Rocky Horror
   date: 2024-10-12
-  time: "doors at 9:30pm, show at 10pm"
+  time: "doors: 10pm, show time: 10:30pm"
   ticketcost: "Tickets start at $20"
   venue: Opera Plaza Cinema
   location: 601 Van Ness Avenue, San Francisco, CA 94102
