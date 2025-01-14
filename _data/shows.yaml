@@ -14,13 +14,13 @@
 - uuid: bcrhps002
   title: Tim Curry Tribute
   date: 2024-02-01
-  time: "and SF Sketchfest's Tribute to Tim Curry"
+  time: 
   ticketcost: 
   venue: SF Sketchfrst 2025
-  location: "We are honored to be part of Peaches Christ" 
+  location: "We are honored to be part of Peaches Christ and SF Sketchfest's Tribute to Tim Curry" 
   link:
-    ticket: https://sfsketchfest2025.sched.com/event/1rbXp
+    ticket: 
     fb:
-    venue: https://sfsketchfest2025.sched.com/
+    venue: https://sfsketchfest2025.sched.com/event/1rbXp
   movie: rhps
   special: "Sold Out"  
