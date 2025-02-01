@@ -16,14 +16,14 @@
   date: 2025-02-14
   time: "doors: 6:30pm, show time: 7:00pm"
   ticketcost: "$24.92"
-  venue: "💘 Valentines Day at the Guild 💖"    
+  venue: "💘 Valentine&#8217;s Day at the Guild 💖"    
   location: 949 El Camino Real, Menlo Park, CA 94025
   link:
     ticket: https://www.tixr.com/groups/guildtheatre/events/rocky-horror-picture-show-ft-bawdy-caste-128259
     fb:
     venue: https://www.guildtheatre.com/events
   movie: rhps
-  special: "<p style='color:red;'>💖 Early Show 💘</p>"
+  special: "<p class=text-center text-danger fw-bold fs-3 my-0>💖 Early Show 💘</p>"
 - uuid: bcrhps004
   title: Rocky Horror
   date: 2025-02-14
