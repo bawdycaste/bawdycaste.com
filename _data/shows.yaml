@@ -1,16 +1,3 @@
-- uuid: bcrhps002
-  title: Tim Curry Tribute
-  date: 2025-02-01
-  time: 
-  ticketcost: 
-  venue: SF Sketchfest 2025
-  location: "We are honored to be part of Peaches Christ and SF Sketchfest's Tribute to Tim Curry" 
-  link:
-    ticket: 
-    fb:
-    venue: https://sfsketchfest2025.sched.com/event/1rbXp
-  movie: rhps
-  special: "Sold Out"  
 - uuid: bcrhps003
   title: Rocky Horror
   date: 2025-02-14
