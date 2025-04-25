@@ -53,19 +53,19 @@ $red: #C80A0A;
 html, body {width: auto!important; overflow-x: hidden!important} 
 
 body {
-    color: rgba(225, 0, 0, .97);
+    color: #C80A0A;
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 .bisexual-lighting {
     background-color:grey;
-    background-image: linear-gradient(to left, rgba(192, 12, 8, 0.759), rgba(43, 36, 108, 0.866));
+    background-image: linear-gradient(to left, rgba(200, 10, 10, 0.759), rgba(43, 36, 108, 0.866));
     background-size: cover;
     background-position: center;
 }
 
-.text-red{color: rgba(225, 0, 0, .97) !important;}
-.link-red{color: rgba(225, 0, 0, .97) !important;}
+.text-red{color: rgba(200, 10, 10, 0.97) !important;}
+.link-red{color: rgba(200, 10, 10, 0.97) !important;}
 .text-rainbow {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     -webkit-background-clip: text;
