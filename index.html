@@ -42,10 +42,10 @@ newsletter: false
   {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows %}
   <div id="{{show.uuid}}" class="col col-12 col-md-6 col-xl-4">
     <div class="card shadow-lg">
+      <h2 class="card-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
       <div class="card-body">
-        <h2 class="card-title text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
         <p
-        class="h2 card-subtitle text-center p-0 m-0 my-3 {% if show.movie == 'lebowski' %}font-tbl{% endif %}{% if show.movie == 'rhps' %}font-doublefeature text-danger text-shadow{% endif %}">
+        class="h2 card-subtitle text-center p-0 m-0 mb-2 {% if show.movie == 'lebowski' %}font-tbl{% endif %}{% if show.movie == 'rhps' %}font-doublefeature text-danger text-shadow{% endif %}">
         {{show.title}}
       </p>
       <h3 class="card-subtitle text-center text-uppercase fw-bold text-danger">
