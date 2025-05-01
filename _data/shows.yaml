@@ -1,19 +1,19 @@
 - uuid: bcrhps001
   title: Rocky Horror
-  date: 2025-04-26
+  date: 2025-05-31
   time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/15667?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    ticket: 
     fb: 
     venue: https://www.balboamovies.com
   movie: rhps
   special: 
 - uuid: bcrhps002
   title: Rocky Horror
-  date: 2025-05-31
+  date: 2025-06-28
   time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
@@ -26,7 +26,7 @@
   special: 
 - uuid: bcrhps003
   title: Rocky Horror
-  date: 2025-06-28
+  date: 2025-07-26
   time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
