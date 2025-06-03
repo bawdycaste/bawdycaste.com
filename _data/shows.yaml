@@ -1,16 +1,16 @@
 - uuid: bcrhps001
   title: Rocky Horror
-  date: 2025-05-31
-  time: "doors: 11pm, show time: 11:30pm"
-  ticketcost: "$15 or $12.50 for Seniors"
-  venue: Balboa Theatre
-  location: 3630 Balboa St, San Francisco, CA 94121
+  date: 2025-06-06
+  time: "doors: 7pm, show time: 7:45pm"
+  ticketcost: "$15 in advance, $20 at door, if available."
+  venue:  Yountville Community Center
+  location: 6516 Washington St, Yountville, CA 94599
   link:
-    ticket: 
+    ticket: https://mynorthbaytickets.com/events/rocky-horror-picture-show-screening
     fb: 
-    venue: https://www.balboamovies.com
+    venue: https://napapride.com/#event
   movie: rhps
-  special: 
+  special: 21 and over
 - uuid: bcrhps002
   title: Rocky Horror
   date: 2025-06-28
