@@ -1,6 +1,7 @@
 ---
 layout: article
 sitemap: false
+april-fools: true
 ---
 
 <img class="img-fluid" src="https://storage.googleapis.com/bawdycaste/images/rainbow%20name_v2.png" title="this image is 30 years old and from our original website, congrats on hovering over it">
@@ -65,12 +66,12 @@ Most important decisions are made democratically either by departments or at cas
 | Director | **Julie** | julie@bawdycaste.com |
 | Director | **Kayla** | kayla@bawdycaste.com |
 | Financial Secretary | **Chris** | chris@bawdycaste.com |
-| Actoring | **Siobhan** | siobhanella@gmail.com |
-| Tech | **Rob** | rob@bawdycaste.com |
+| Actoring | **Siobhan** | siobhan@bawdycaste.com |
+| Tech | **chris hatfield** | chrishatfield@bawdycaste.com |
 | Security | **Kayla** | kayla@bawdycaste.com |
-| ​Sales | **Dave** | dave@bawdycaste.com |
-| P.E.N.I.S. | **Lux** | montes.lux@gmail.com |
-| Preshows | **Christina** | christina@bawdycaste.com |
+| ​Sales | **Sonja** | sonja@bawdycaste.com |
+| P.E.N.I.S. | **Sam** | sam@bawdycaste.com |
+| Preshows | **Alex** | alex@bawdycaste.com |
 
 ## GENERAL GUIDELINES
 
