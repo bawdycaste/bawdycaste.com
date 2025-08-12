@@ -1,7 +1,6 @@
 ---
 layout: article
 sitemap: false
-april-fools: true
 ---
 
 <img class="img-fluid" src="https://storage.googleapis.com/bawdycaste/images/rainbow%20name_v2.png" title="this image is 30 years old and from our original website, congrats on hovering over it">
