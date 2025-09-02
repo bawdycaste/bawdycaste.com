@@ -3,7 +3,7 @@ layout: main
 last_modified_at: 2025/09/01
 chat: false
 newsletter: false
-virginsofthenight: 
+virginsofthenight:
 ---
 
 <header class="header text-center text-light p-1">
@@ -13,12 +13,11 @@ virginsofthenight:
   <h1 class="df text-red d-none d-md-inline" style="text-shadow: 4px 4px black; font-size: 4.4rem">
     The Bawdy Caste
   </h1>
-</header> 
+</header>
 
 <div class="row row-cols-3 text-center justify-content-center px-md-5 mx-md-5">
   <div class="col my-auto">
-    <img class="w-100"
-      src="https://storage.googleapis.com/bawdycaste/images/50th_Logo_transparent.png"/>
+    <img class="w-100" src="https://storage.googleapis.com/bawdycaste/images/50th_Logo_transparent.png" />
   </div>
   <div class="col my-auto">
     <img src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/aa8ec27a-43e0-46ed-0b2a-6f4637545800/public"
@@ -46,40 +45,40 @@ virginsofthenight:
       <h2 class="card-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
       <div class="card-body">
         <p
-        class="h2 card-subtitle text-center p-0 m-0 mb-2 {% if show.movie == 'lebowski' %}font-tbl{% endif %}{% if show.movie == 'rhps' %}font-doublefeature text-danger text-shadow{% endif %}">
-        {{show.title}}
-      </p>
-      <h3 class="card-subtitle text-center text-uppercase fw-bold text-danger">
-        {% if show.link.venue != blank? %}<a href="{{show.link.venue}}" class="link-danger"
-          target="_blank">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank? %}{{show.venue}}{% endif %}
-      </h3>
-      <p class="card-text text-center">
-        <span class="lead">{{show.location}}</span>
-        <br />
-        <span class="lead">{{show.time}}</span>
-        <span class="badge bg-dark">{{show.io}}</span>
-      </p>
-      {% if show.ticketcost != blank? %}
-      <p class="text-center">
-        <span class="badge bg-dark text-light">{{show.ticketcost}}</span>
-      </p>
-      {% endif %}
-      <p class="btn-group w-100 mb-0 shadow shadow-lg">
-        <a href="{{show.link.ticket}}" class="btn btn-danger {% if show.link.ticket==blank?%}disabled{%endif%}"
-          target="_blank">tickets</a>
-        <a href="{{show.link.fb}}" class="btn btn-secondary {% if show.link.fb == blank?%}disabled{%endif%}"
-          target="_blank">fb event</a>
-        {% if show.uuid == 'bclebowski001' %}
-        <a href="lebowski" class="btn btn-warning">ins and outs</a>
-        {% endif %} {% if show.uuid == 'bclebowski002' %}
-        <a href="lebowski" class="btn btn-warning">ups and downs</a>
+          class="h2 card-subtitle text-center p-0 m-0 mb-2 {% if show.movie == 'lebowski' %}font-tbl{% endif %}{% if show.movie == 'rhps' %}font-doublefeature text-danger text-shadow{% endif %}">
+          {{show.title}}
+        </p>
+        <h3 class="card-subtitle text-center text-uppercase fw-bold text-danger">
+          {% if show.link.venue != blank? %}<a href="{{show.link.venue}}" class="link-danger"
+            target="_blank">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank? %}{{show.venue}}{% endif %}
+        </h3>
+        <p class="card-text text-center">
+          <span class="lead">{{show.location}}</span>
+          <br />
+          <span class="lead">{{show.time}}</span>
+          <span class="badge bg-dark">{{show.io}}</span>
+        </p>
+        {% if show.ticketcost != blank? %}
+        <p class="text-center">
+          <span class="badge bg-dark text-light">{{show.ticketcost}}</span>
+        </p>
         {% endif %}
-      </p>
-      <p class="text-center text-primary fw-bold fs-3 my-0">{{show.special}}</p>
+        <p class="btn-group w-100 mb-0 shadow shadow-lg">
+          <a href="{{show.link.ticket}}" class="btn btn-danger {% if show.link.ticket==blank?%}disabled{%endif%}"
+            target="_blank">tickets</a>
+          <a href="{{show.link.fb}}" class="btn btn-secondary {% if show.link.fb == blank?%}disabled{%endif%}"
+            target="_blank">fb event</a>
+          {% if show.uuid == 'bclebowski001' %}
+          <a href="lebowski" class="btn btn-warning">ins and outs</a>
+          {% endif %} {% if show.uuid == 'bclebowski002' %}
+          <a href="lebowski" class="btn btn-warning">ups and downs</a>
+          {% endif %}
+        </p>
+        <p class="text-center text-primary fw-bold fs-3 my-0">{{show.special}}</p>
       </div>
     </div>
   </div>
-  {% endfor %} 
+  {% endfor %}
 </div>
 
 <div class="row mb-3">
@@ -109,10 +108,11 @@ virginsofthenight:
 </div>
 
 {% if site.virginsofthenight != blank? %}
-<div class="row text-end g-3 mb-3"> 
+<div class="row text-end g-3 mb-3">
   <div class="col col-12 col-md-4 order-1 order-md-0">
     <div class="card bg-dark">
-      <img class="card-img-top" src="{{page.virginsofthenight}}" alt="virgins of the night, two individuals dressed in a wedding dress and a white coat, participating in the show on the occasion of their first viewing">
+      <img class="card-img-top" src="{{page.virginsofthenight}}"
+        alt="virgins of the night, two individuals dressed in a wedding dress and a white coat, participating in the show on the occasion of their first viewing">
       <div class="card-body text-center">
         <h2 class="card-title text-danger df">Virgins of the Night</h2>
         <p class="text-light p-0 m-0">April 26 2025</p>
@@ -121,16 +121,16 @@ virginsofthenight:
   </div>
 </div>
 {% endif %}
-<div class="row text-end g-3 mb-3"> 
-  <div class="col col-12 col-md-4 order-1 order-md-0">
-      <img class="w-100 rounded"
+
+<div class="row align-items-center">
+  <div class="col col-12 col-md-4 p-5">
+    <img class="img-fluid rounded"
       src="https://storage.googleapis.com/bawdycaste/images/20251026%20Rocky%20Horror%20Story.png"
       alt="RHPS at the Guild Theatre September 26, 4pm and 10 pm" />
-
   </div>
-</div>
-<div class="row row-cols-1 row-cols-lg-2 align-items-center">
-  <div class="col order-1">
+  <div class="col col-md-8">
+    <div class="row row-cols-1 g-3">
+      <div class="col">
     <div class="p-2 text-dark text-bg-light border border-3 border-danger rounded">
       <h2>Rules for Homemade Prop Bags</h2>
       <div class="px-3">
@@ -157,7 +157,7 @@ virginsofthenight:
     </div>
   </div>
 
-  <div class="col order-0">
+  <div class="col">
     <div class="alert alert-secondary border border-success border-5">
       <div class="row justify-content-together">
         <div class="col">
@@ -184,6 +184,8 @@ virginsofthenight:
         </div>
       </div>
       <p class="text-center h4 fofbb">Don't Dream It &mdash; Buy It!</p>
+    </div>
+  </div>
     </div>
   </div>
 </div>
@@ -226,7 +228,8 @@ virginsofthenight:
       <a class="link-dark" href="https://www.instagram.com/rhpsberkeley">Transylvanian Temptations</a>
     </p>
   </div>
-  <p class="text-center p-0 m-0 mt-1 text-muted small">want to be on this list? <a href="mailto:info@bawdycaste.com" class="text-muted">let us know</a></p>
+  <p class="text-center p-0 m-0 mt-1 text-muted small">want to be on this list? <a href="mailto:info@bawdycaste.com"
+      class="text-muted">let us know</a></p>
 </div>
 
 {% include footer.html %}
