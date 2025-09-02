@@ -1,13 +1,39 @@
-- uuid: bcrhps004
+- uuid: bcrhps001
   title: Rocky Horror
-  date: 2025-08-30
+  date: 2025-09-w7
   time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/16587?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    ticket: https://ticketing.uswest.veezi.com/purchase/16843?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
     fb: 
     venue: https://www.balboamovies.com
   movie: rhps
-  special: <span class="f13" style="color:#009900">🏖️🦀🐙👙🏄‍♀️ Special <u>Summer Beach Party</u> themed show! 🏄🌴🐬🐳🐠<br></span>
+  special:
+- uuid: bcrhps002
+  title: Rocky Horror
+  date: 2025-09-27
+  time: "doors: 4 pm"
+  ticketcost: "$15 or $12.50 for Seniors"
+  venue: The Guild Theatre
+  location: 949 El Camino Real, Menlo Park, CA 94025
+  link:
+    ticket: https://www.tixr.com/groups/guildtheatre/events/rocky-horror-picture-show-ft-bawdy-caste-156180
+    fb: 
+    venue: https://www.tixr.com/groups/guildtheatre
+  movie: rhps
+  special: Early Show
+- uuid: bcrhps002
+  title: Rocky Horror
+  date: 2025-09-27
+  time: "doors: 7 pm"
+  ticketcost: "Tickets: $28.49 ($20 + 8.49 fees & taxes)"
+  venue: The Guild Theatre
+  location: 949 El Camino Real, Menlo Park, CA 94025
+  link:
+    ticket: https://www.tixr.com/groups/guildtheatre/events/rocky-horror-picture-show-ft-bawdy-caste-156180
+    fb: 
+    venue: https://www.tixr.com/groups/guildtheatre
+  movie: rhps
+  special: Late Show
