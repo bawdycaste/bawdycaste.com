@@ -10,7 +10,7 @@
     fb: 
     venue: https://www.balboamovies.com
   movie: rhps
-  special: Early Show - <span class="text-red">SOLD OUT!</span><br><span class="text-rainbow">Costume Contest!</span>
+  special: Early Show - <span class="text-red">SOLD OUT!</span><br><span class="text-rainbow-2">Costume Contest!</span>
 - uuid: bcrhps005
   title: Rocky Horror
   date: 2025-10-31
