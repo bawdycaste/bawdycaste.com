@@ -13,7 +13,7 @@
   special: "🎄 🎅 ❄ 🕎  Holiday Show!  🕎 ❄ 🎅 🎄"
 - uuid: bcrhps002
   title: Rocky Horror
-  date: 2025-11-27
+  date: 2025-12-27
   time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
@@ -27,7 +27,7 @@
 - uuid: bcrhps003
   title: Rocky Horror
   date: 2025-12-31
-  time: "doors: 11pm, show time: 12:30pm"
+  time: "doors: 11pm, show time: 12:00pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
