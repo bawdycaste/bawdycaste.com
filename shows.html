@@ -1,15 +1,42 @@
 ---
 layout: main
+title: Show Archive
 ---
-<div class="row">
-  <div class="col col-12 col-md-3">
-    <ul class="list-group">
-      {% for show in site.shows | reverse %}
-      <li class="list-group-item">
-        <a class="link-dark text-uppercase" href="{{ show.url }}">{{ show.date | date: '%b %d, %Y' }} <span class="badge bg-dark ms-1">{{show.category}}</span></a>
-      </li>
-      {% endfor %}
-    </ul>
+
+<div class="row mb-4">
+  <div class="col text-center">
+    <h1 class="df animate-fade-in" style="color: #ff3333; text-shadow: 0 0 20px rgba(255, 51, 51, 0.6); font-size: 3rem; margin-bottom: 1rem;">Show Archive</h1>
+    <p class="lead" style="color: #ffffff; font-size: 1.2rem;">All of our past performances</p>
   </div>
 </div>
+
+<div class="row g-4">
+  {% for show in site.shows | reverse %}
+  <div class="col-12 col-md-6 col-lg-4 animate-fade-in">
+    <article class="card h-100 shadow-lg" style="background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(10px); border: 2px solid rgba(255, 51, 51, 0.4); transition: all 0.3s ease;">
+      <div class="card-header" style="background: linear-gradient(135deg, rgba(200, 10, 10, 1) 0%, rgba(160, 8, 8, 1) 100%); color: #ffffff; font-weight: 600;">
+        <h5 class="card-title mb-0" style="font-size: 1.2rem;">{{ show.date | date: '%B %d, %Y' }}</h5>
+      </div>
+      <div class="card-body d-flex flex-column">
+        <p class="mb-2">
+          <span class="badge" style="background-color: #ff3333; font-size: 0.9rem; padding: 0.5rem 0.75rem;">{{show.category}}</span>
+        </p>
+        <h3 class="card-subtitle mb-3" style="color: #ff6666; font-weight: 700;">{{show.title}}</h3>
+        <p class="card-text mb-3" style="color: #e8e8e8;">{{ show.excerpt | strip_html | truncatewords: 30 }}</p>
+        <div class="mt-auto">
+          <a href="{{ show.url }}" class="btn btn-danger btn-modern w-100" style="min-height: 44px; font-weight: 600;">View Details</a>
+        </div>
+      </div>
+    </article>
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 26, 26, 0.4);
+  border-color: rgba(255, 51, 51, 0.6);
+}
+</style>
 
