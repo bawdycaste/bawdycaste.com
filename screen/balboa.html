@@ -2,30 +2,156 @@
 layout: screen
 sitemap: false
 ---
-<div class="row my-5 align-items-center justify-content-center">
-  <div class="col-2">
-    <img class="img-fluid" src="https://storage.googleapis.com/bawdycaste/images/RHPSLogo_LipsFrank.png" alt="" />
-  </div>
-  <div class="col-7">
-    <header class="header text-center text-light p-1">
-      <h1 style="font-size: 2.45rem" class="fofbb">
-        <span class="ss" style="
-            font-size: 3rem;
-            text-transform: uppercase;
-            text-rendering: optimizeLegibility;
-          ">Bawdy Caste</span>&trade;
-        presents: <br />
-        <span class="df text-red" style="text-shadow: 4px 4px white">THE ROCKY HORROR PICTURE SHOW</span>
-      </h1>
-    </header>
-  </div>
-   <div class="col-2">
-    <img class="img-fluid" src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/b6caed45-3d95-49e4-04c0-30c5ecddd800/public" alt="balboa theatre logo, a stylizing drawing of the buildings marquee" />
+
+<style>
+  body {
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1e 100%);
+    color: #ffffff;
+  }
+
+  .preshow-slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes glow {
+    0%, 100% { 
+      text-shadow: 0 0 20px rgba(255, 51, 51, 0.8),
+                   0 0 40px rgba(255, 51, 51, 0.6),
+                   4px 4px 8px rgba(0, 0, 0, 0.9);
+    }
+    50% { 
+      text-shadow: 0 0 40px rgba(255, 51, 51, 1),
+                   0 0 80px rgba(255, 51, 51, 0.8),
+                   4px 4px 8px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  .hero-logo {
+    animation: float 4s ease-in-out infinite;
+    filter: drop-shadow(0 0 30px rgba(255, 51, 51, 0.6));
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main-title {
+    font-size: 5vw;
+    animation: glow 3s ease-in-out infinite;
+    color: #ff3333;
+  }
+
+  .subtitle {
+    font-size: 2.5vw;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .rotating-message {
+    font-size: 5vw;
+    min-height: 15vh;
+    animation: glow 2s ease-in-out infinite;
+    color: #ff3333;
+  }
+
+  .info-card {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 51, 51, 0.5);
+    border-radius: 2rem;
+    padding: 3rem;
+    margin: 2rem;
+    box-shadow: 0 0 40px rgba(255, 51, 51, 0.3);
+  }
+
+  .big-text {
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .qr-code {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+  }
+</style>
+
+<!-- Slide 1: Main Title -->
+<div class="preshow-slide">
+  <div class="container-fluid text-center" style="max-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 2vh 5vw;">
+    <div class="row align-items-center justify-content-center mb-3">
+      <div class="col-3">
+        <img class="hero-logo" src="https://storage.googleapis.com/bawdycaste/images/RHPSLogo_LipsFrank.png" alt="Rocky Horror lips logo" style="max-height: 20vh; width: auto;" />
+      </div>
+      <div class="col-6">
+        <h1 class="ss subtitle mb-2">BAWDY CASTE™ PRESENTS</h1>
+        <h2 class="df main-title">THE ROCKY HORROR PICTURE SHOW</h2>
+      </div>
+      <div class="col-3">
+        <img class="hero-logo" src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/b6caed45-3d95-49e4-04c0-30c5ecddd800/public" alt="Balboa Theatre logo" style="max-height: 20vh; width: auto;" />
+      </div>
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col">
+        <h3 id="message" class="rotating-message fofbb text-center"></h3>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="row align-items-center mt-5">
-  <div class="col text-center">
-    <h2 id="message" class="text-red df my-4" style="font-size: 9vw;"></h2>
-  </div>
-</div>
+<script>
+// Enhanced rotating messages for preshow
+const messages = [
+    'BAWDYCASTE.COM',
+    'BUY A BAWDY BAG™!',
+    '@BAWDYCASTE',
+    'GIVE YOURSELF OVER TO ABSOLUTE PLEASURE',
+    'CAST PHOTOS AFTER SHOW',
+    'GET UP AND DANCE!',
+    'DONATE TO SUPPORT THE CAST',
+    'ALL VOLUNTEER CAST',
+    'JOIN OUR CAST!',
+    'DON\'T DREAM IT — DO IT!',
+    ' ',
+    ' '
+];
+
+let counter = 0;
+const messageEl = document.getElementById('message');
+
+function changeMessage() {
+    messageEl.style.animation = 'none';
+    setTimeout(() => {
+        messageEl.innerHTML = messages[counter];
+        messageEl.style.animation = 'glow 2s ease-in-out infinite';
+        counter = (counter + 1) % messages.length;
+    }, 50);
+}
+
+// Start with first message
+messageEl.innerHTML = messages[0];
+
+// Change message every 8 seconds
+setInterval(changeMessage, 8000);
+</script>
