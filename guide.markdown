@@ -4,6 +4,7 @@ sitemap: true
 last_modified_at: 2024/05/08
 chat: false
 title: Rocky Horror Participation Guide
+published: false
 ---
 
 <div class="text-center mb-5">

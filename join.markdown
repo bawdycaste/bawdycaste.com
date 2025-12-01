@@ -5,7 +5,6 @@ title: Join The Bawdy Caste
 ---
 
 <div class="text-center mb-5">
-  <img class="img-fluid" style="max-width: 400px; filter: drop-shadow(0 0 20px rgba(255, 51, 51, 0.5));" src="https://storage.googleapis.com/bawdycaste/images/rainbow%20name_v2.png" alt="Bawdy Caste rainbow logo">
   <p class="lead mt-4" style="font-size: 1.3rem; color: #ffffff; font-weight: 600;">Ready to become part of San Francisco's premier Rocky Horror shadowcast?</p>
 </div>
 
