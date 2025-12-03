@@ -358,3 +358,180 @@ hr.style-eight:after {
 .TBL {font-family: "TBL";z-index: 2;}
 .TBL_1 {font-family: "TBL_1";z-index: 2;}
 
+// Join Page - Semantic Card Styles
+
+.info-cards-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.info-card {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid;
+  
+  strong {
+    font-size: 1.2rem;
+  }
+  
+  &--red {
+    background: rgba(255, 51, 51, 0.15);
+    border-color: rgba(255, 51, 51, 0.3);
+    
+    strong {
+      color: #ff6666;
+    }
+  }
+  
+  &--blue {
+    background: rgba(102, 217, 255, 0.15);
+    border-color: rgba(102, 217, 255, 0.3);
+    
+    strong {
+      color: #66d9ff;
+    }
+  }
+}
+
+.action-box {
+  background: rgba(255, 51, 51, 0.1);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.department-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.department-card {
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid;
+  
+  &--actoring {
+    background: rgba(255, 51, 51, 0.15);
+    border-left-color: #ff3333;
+    
+    strong {
+      color: #ff6666;
+    }
+  }
+  
+  &--tech {
+    background: rgba(102, 217, 255, 0.15);
+    border-left-color: #66d9ff;
+    
+    strong {
+      color: #66d9ff;
+    }
+  }
+  
+  &--security {
+    background: rgba(255, 193, 7, 0.15);
+    border-left-color: #ffc107;
+    
+    strong {
+      color: #ffc107;
+    }
+  }
+  
+  &--sales {
+    background: rgba(40, 167, 69, 0.15);
+    border-left-color: #28a745;
+    
+    strong {
+      color: #5efc82;
+    }
+  }
+  
+  &--penis {
+    background: rgba(220, 53, 69, 0.15);
+    border-left-color: #dc3545;
+    
+    strong {
+      color: #ff6666;
+    }
+  }
+  
+  &--preshows {
+    background: rgba(138, 43, 226, 0.15);
+    border-left-color: #8a2be2;
+    
+    strong {
+      color: #b57aff;
+    }
+  }
+}
+
+.alert-box {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid;
+  margin: 1.5rem 0;
+  
+  &--danger {
+    background: rgba(220, 53, 69, 0.15);
+    border-color: rgba(220, 53, 69, 0.4);
+  }
+  
+  &--warning {
+    background: rgba(255, 193, 7, 0.15);
+    border-color: rgba(255, 193, 7, 0.4);
+  }
+  
+  &--info {
+    background: rgba(102, 217, 255, 0.15);
+    border-color: rgba(102, 217, 255, 0.4);
+  }
+}
+
+.join-steps-box {
+  background: linear-gradient(135deg, rgba(255, 51, 51, 0.2), rgba(102, 217, 255, 0.2));
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 2px solid rgba(255, 51, 51, 0.4);
+  margin: 2rem 0;
+  
+  ol {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 2;
+    margin: 0;
+    padding-left: 1.5rem;
+  }
+  
+  a {
+    color: #66d9ff;
+    text-decoration: underline;
+  }
+}
+
+.cta-box {
+  background: rgba(255, 51, 51, 0.2);
+  border-radius: 1rem;
+  border: 2px solid rgba(255, 51, 51, 0.4);
+  
+  p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  a {
+    color: #66d9ff;
+    text-decoration: underline;
+  }
+}
+
+.lead-intro {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
