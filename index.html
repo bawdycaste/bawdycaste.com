@@ -6,51 +6,60 @@ newsletter: false
 virginsofthenight:
 ---
 
-<header class="header text-center text-light p-1">
-  <h1 class="df text-red d-md-none" style="text-shadow: 4px 4px black; font-size: 3rem">
+<header class="header text-center text-light p-1" role="banner">
+  <h1 class="df d-md-none hero-title glow-text"
+    style="color: #ff3333; text-shadow: 4px 4px black, 0 0 20px rgba(255, 51, 51, 0.8); font-size: 3rem">
     The Bawdy Caste
   </h1>
-  <h1 class="df text-red d-none d-md-inline" style="text-shadow: 4px 4px black; font-size: 4.4rem">
+  <h1 class="df d-none d-md-inline hero-title glow-text"
+    style="color: #ff3333; text-shadow: 4px 4px black, 0 0 20px rgba(255, 51, 51, 0.8); font-size: 4.4rem">
     The Bawdy Caste
   </h1>
 </header>
 
 <div class="row row-cols-3 text-center justify-content-center px-md-5 mx-md-5">
-  <div class="col my-auto">
-    <img class="w-100" src="https://storage.googleapis.com/bawdycaste/images/50th_Logo_transparent.png" />
+  <div class="col my-auto float-animation" style="animation-delay: 0s;">
+    <img class="w-100" src="https://storage.googleapis.com/bawdycaste/images/50th_Logo_transparent.png"
+      style="filter: drop-shadow(0 5px 15px rgba(200, 10, 10, 0.4));" />
   </div>
-  <div class="col my-auto">
+  <div class="col my-auto float-animation" style="animation-delay: 0.3s;">
     <img src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/aa8ec27a-43e0-46ed-0b2a-6f4637545800/public"
-      alt="bawdy caste logo, fishnet clad legs caressed by a hand with red fingernails" class="w-100" />
+      alt="bawdy caste logo, fishnet clad legs caressed by a hand with red fingernails" class="w-100"
+      style="filter: drop-shadow(0 5px 15px rgba(200, 10, 10, 0.4));" />
   </div>
-  <div class="col my-auto">
+  <div class="col my-auto float-animation" style="animation-delay: 0.6s;">
     <img class="w-100"
       src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/b6caed45-3d95-49e4-04c0-30c5ecddd800/public"
-      alt="balboa theatre logo, a stylizing drawing of the buildings marquee" />
+      alt="balboa theatre logo, a stylizing drawing of the buildings marquee"
+      style="filter: drop-shadow(0 5px 15px rgba(200, 10, 10, 0.4));" />
   </div>
 </div>
 
 <div class="row mt-0 pt-0">
   <div class="col mt-0 pt-0 text-center">
-    <h2 class="f13" style="text-shadow: 2px 2px 10px black">
+    <h2 class="f13"
+      style="color: #ffffff; text-shadow: 2px 2px 10px black, 0 0 15px rgba(0, 0, 0, 0.7); font-size: 1.5rem;">
       performing cult classic movies with the full audience participation experience!
     </h2>
   </div>
 </div>
 
-<div class="row justify-content-evenly align-items-baseline g-3">
+<div class="row justify-content-evenly align-items-baseline g-3" role="list" aria-label="Upcoming shows">
   {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows %}
-  <div id="{{show.uuid}}" class="col col-12 col-md-6 col-xl-4">
-    <div class="card shadow-lg">
+  <div id="{{show.uuid}}" class="col col-12 col-md-6 col-xl-4 animate-fade-in" role="listitem">
+    <article class="card shadow-lg"
+      style="background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(10px); border: 2px solid rgba(255, 51, 51, 0.4);">
       <h2 class="card-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
       <div class="card-body">
         <p
           class="h2 card-subtitle text-center p-0 m-0 mb-2 {% if show.movie == 'lebowski' %}font-tbl{% endif %}{% if show.movie == 'rhps' %}font-doublefeature text-danger text-shadow{% endif %}">
           {{show.title}}
         </p>
-        <h3 class="card-subtitle text-center text-uppercase fw-bold text-danger">
-          {% if show.link.venue != blank? %}<a href="{{show.link.venue}}" class="link-danger"
-            target="_blank">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank? %}{{show.venue}}{% endif %}
+        <h3 class="card-subtitle text-center text-uppercase fw-bold" style="color: #ff6666;">
+          {% if show.link.venue != blank? %}<a href="{{show.link.venue}}"
+            style="color: #ff6666; text-decoration: underline;" target="_blank" rel="noopener noreferrer"
+            aria-label="View {{show.venue}} venue details">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank?
+          %}{{show.venue}}{% endif %}
         </h3>
         <p class="card-text text-center">
           <span class="lead">{{show.location}}</span>
@@ -63,29 +72,37 @@ virginsofthenight:
           <span class="badge bg-dark text-light">{{show.ticketcost}}</span>
         </p>
         {% endif %}
-        <p class="btn-group w-100 mb-0 shadow shadow-lg">
-          <a href="{{show.link.ticket}}" class="btn btn-danger {% if show.link.ticket==blank?%}disabled{%endif%}"
-            target="_blank">tickets</a>
+        <p class="btn-group w-100 mb-0 shadow shadow-lg" role="group" aria-label="Show actions">
+          <a href="{{show.link.ticket}}"
+            class="btn btn-danger btn-modern {% if show.link.ticket==blank?%}disabled{%endif%}" target="_blank"
+            rel="noopener noreferrer"
+            style="position: relative; z-index: 1; background-color: #dc3545; border-color: #dc3545;"
+            aria-label="Buy tickets for {{show.title}} on {{show.date | date: '%B %d, %Y'}}">tickets</a>
           {% if show.uuid == 'bclebowski001' %}
-          <a href="lebowski" class="btn btn-warning">ins and outs</a>
+          <a href="lebowski" class="btn btn-warning btn-modern"
+            style="position: relative; z-index: 1; background-color: #ffc107; color: #000;"
+            aria-label="View Lebowski ins and outs guide">ins and outs</a>
           {% endif %} {% if show.uuid == 'bclebowski002' %}
-          <a href="lebowski" class="btn btn-warning">ups and downs</a>
+          <a href="lebowski" class="btn btn-warning btn-modern"
+            style="position: relative; z-index: 1; background-color: #ffc107; color: #000;"
+            aria-label="View Lebowski ups and downs guide">ups and downs</a>
           {% endif %}
         </p>
-        <p class="text-center text-primary fw-bold fs-3 my-0">{{show.special}}</p>
+        <p class="text-center fw-bold fs-3 my-0" style="color: #66d9ff;">{{show.special}}</p>
       </div>
-    </div>
+    </article>
   </div>
   {% endfor %}
 </div>
 
 <div class="row mb-3">
   <div class="col text-center rounded align-self-center">
-    <p class="fofbb p-0 m-0" style="text-shadow: 1px 1px 2px black">
-      It's a lot like <span style="filter: blur(2px)">sex</span>: if you don't
-      participate, you can't <span class="DF text-bold">come!</span>
+    <p class="fofbb p-0 m-0"
+      style="color: #ffffff; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9), 0 0 20px rgba(255, 26, 26, 0.6); font-size: 1.4rem; font-weight: 600;">
+      It's a lot like <span style="filter: blur(2px)" aria-label="sex">sex</span>: if you don't
+      participate, you can't <span class="DF text-bold" style="color: #ff3333;">come!</span>
     </p>
-    <p class="m-0 p-0 fofbb small text-black" style="opacity: 0.33">
+    <p class="m-0 p-0 fofbb small" style="color: #cccccc; opacity: 0.7;">
       that's not true... but it should be
     </p>
   </div>
@@ -93,12 +110,13 @@ virginsofthenight:
 
 <div class="row">
   <div class="col col-12">
-    <div class="alert bg-dark text-light text-uppercase fofbb">
-      <h2 class="alert-heading">
+    <div class="alert text-uppercase fofbb"
+      style="background-color: #1a1a1a; color: #ffffff; border: 2px solid #ff3333;" role="alert">
+      <h2 class="alert-heading" style="color: #ffffff;">
         <div class="row align-items-center justify-content-evenly text-center w-100">
-          <div class="col fs-2">&#128567;</div>
+          <div class="col fs-2" aria-hidden="true">&#128567;</div>
           <div class="col text-center">masks recommended</div>
-          <div class="col fs-2">&#128567;</div>
+          <div class="col fs-2" aria-hidden="true">&#128567;</div>
         </div>
       </h2>
     </div>
@@ -120,12 +138,11 @@ virginsofthenight:
 </div>
 {% endif %}
 
-<div class="row align-items-center">
-   <div class="col col-md-8">
-    <div class="row row-cols-1 g-3">
-      <div class="col">
-    <div class="p-2 text-dark text-bg-light border border-3 border-danger rounded">
-      <h2>Rules for Homemade Prop Bags</h2>
+<div class="row align-items-start g-3 mb-4">
+  <div class="col-12 col-md-6">
+    <div class="p-3 border border-3 border-danger rounded"
+      style="background-color: rgba(255, 255, 255, 0.95); color: #000000;">
+      <h2 style="color: #000000; font-weight: 700;">Rules for Homemade Prop Bags</h2>
       <div class="px-3">
         <dl>
           <dt>No Wet, No Meat, No Wet Meat</dt>
@@ -150,13 +167,15 @@ virginsofthenight:
     </div>
   </div>
 
-  <div class="col">
-    <div class="alert alert-secondary border border-success border-5">
+  <div class="col-12 col-md-6">
+    <div class="alert border border-success border-5 neon-border"
+      style="background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(5px); color: #ffffff;">
       <div class="row justify-content-together">
         <div class="col">
-          <h2 class="fofbb">Buy a <u class="text-success">Bawdy Bag&trade;</u></h2>
-          <p class="lead mb-0 pb-0">one for $3 &mdash; two for $5</p>
-          <p class="text-muted small pt-0 mt-0" style="font-weight: lighter">
+          <h2 class="fofbb" style="color: #ffffff; text-shadow: 0 0 10px rgba(40, 167, 69, 0.8);">Buy a <u
+              style="color: #5efc82;">Bawdy Bag&trade;</u></h2>
+          <p class="lead mb-0 pb-0" style="color: #ffffff; font-weight: 600;">one for $3 &mdash; two for $5</p>
+          <p class="small pt-0 mt-0" style="color: #cccccc;">
             sharing discouraged
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
@@ -177,8 +196,6 @@ virginsofthenight:
         </div>
       </div>
       <p class="text-center h4 fofbb">Don't Dream It &mdash; Buy It!</p>
-    </div>
-  </div>
     </div>
   </div>
 </div>
