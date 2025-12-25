@@ -1,245 +1,172 @@
 ---
 layout: main
-last_modified_at: 2025/11/22
+last_modified_at: 2025/12/25
 chat: false
 newsletter: false
 virginsofthenight:
 ---
 
-<header class="header text-center text-light p-1" role="banner">
-  <h1 class="df d-md-none hero-title glow-text"
-    style="color: #ff3333; text-shadow: 4px 4px black, 0 0 20px rgba(255, 51, 51, 0.8); font-size: 3rem">
-    The Bawdy Caste
-  </h1>
-  <h1 class="df d-none d-md-inline hero-title glow-text"
-    style="color: #ff3333; text-shadow: 4px 4px black, 0 0 20px rgba(255, 51, 51, 0.8); font-size: 4.4rem">
-    The Bawdy Caste
-  </h1>
-</header>
+<!-- Hero Section -->
+<section class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark"
+  style="min-height: 80vh; display: flex; align-items: center; justify-content: center;">
+  <div
+    style="position: absolute; top:0; left:0; width:100%; height:100%; background: url('https://storage.googleapis.com/bawdycaste/images/facebook-header.jpg') center/cover no-repeat; opacity: 0.4; z-index: 0;">
+  </div>
 
-<div class="row row-cols-3 text-center justify-content-center px-md-5 mx-md-5">
-  <div class="col my-auto float-animation" style="animation-delay: 0s;">
-    <img class="w-100" src="https://storage.googleapis.com/bawdycaste/images/50th_Logo_transparent.png"
-      style="filter: drop-shadow(0 5px 15px rgba(200, 10, 10, 0.4));" />
-  </div>
-  <div class="col my-auto float-animation" style="animation-delay: 0.3s;">
-    <img src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/aa8ec27a-43e0-46ed-0b2a-6f4637545800/public"
-      alt="bawdy caste logo, fishnet clad legs caressed by a hand with red fingernails" class="w-100"
-      style="filter: drop-shadow(0 5px 15px rgba(200, 10, 10, 0.4));" />
-  </div>
-  <div class="col my-auto float-animation" style="animation-delay: 0.6s;">
-    <img class="w-100"
-      src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/b6caed45-3d95-49e4-04c0-30c5ecddd800/public"
-      alt="balboa theatre logo, a stylizing drawing of the buildings marquee"
-      style="filter: drop-shadow(0 5px 15px rgba(200, 10, 10, 0.4));" />
-  </div>
-</div>
-
-<div class="row mt-0 pt-0">
-  <div class="col mt-0 pt-0 text-center">
-    <h2 class="f13"
-      style="color: #ffffff; text-shadow: 2px 2px 10px black, 0 0 15px rgba(0, 0, 0, 0.7); font-size: 1.5rem;">
-      performing cult classic movies with the full audience participation experience!
-    </h2>
-  </div>
-</div>
-
-<div class="row justify-content-evenly align-items-baseline g-3" role="list" aria-label="Upcoming shows">
-  {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows %}
-  <div id="{{show.uuid}}" class="col col-12 col-md-6 col-xl-4 animate-fade-in" role="listitem">
-    <article class="card shadow-lg"
-      style="background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(10px); border: 2px solid rgba(255, 51, 51, 0.4);">
-      <h2 class="card-header text-center fw-bold">{{show.date | date: "%a %b %d, %Y"}}</h2>
-      <div class="card-body">
-        <p
-          class="h2 card-subtitle text-center p-0 m-0 mb-2 {% if show.movie == 'lebowski' %}font-tbl{% endif %}{% if show.movie == 'rhps' %}font-doublefeature text-danger text-shadow{% endif %}">
-          {{show.title}}
-        </p>
-        <h3 class="card-subtitle text-center text-uppercase fw-bold" style="color: #ff6666;">
-          {% if show.link.venue != blank? %}<a href="{{show.link.venue}}"
-            style="color: #ff6666; text-decoration: underline;" target="_blank" rel="noopener noreferrer"
-            aria-label="View {{show.venue}} venue details">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank?
-          %}{{show.venue}}{% endif %}
-        </h3>
-        <p class="card-text text-center">
-          <span class="lead">{{show.location}}</span>
-          <br />
-          <span class="lead">{{show.time}}</span>
-          <span class="badge bg-dark">{{show.io}}</span>
-        </p>
-        {% if show.ticketcost != blank? %}
-        <p class="text-center">
-          <span class="badge bg-dark text-light">{{show.ticketcost}}</span>
-        </p>
-        {% endif %}
-        <p class="btn-group w-100 mb-0 shadow shadow-lg" role="group" aria-label="Show actions">
-          <a href="{{show.link.ticket}}"
-            class="btn btn-danger btn-modern {% if show.link.ticket==blank?%}disabled{%endif%}" target="_blank"
-            rel="noopener noreferrer"
-            style="position: relative; z-index: 1; background-color: #dc3545; border-color: #dc3545;"
-            aria-label="Buy tickets for {{show.title}} on {{show.date | date: '%B %d, %Y'}}">tickets</a>
-          {% if show.uuid == 'bclebowski001' %}
-          <a href="lebowski" class="btn btn-warning btn-modern"
-            style="position: relative; z-index: 1; background-color: #ffc107; color: #000;"
-            aria-label="View Lebowski ins and outs guide">ins and outs</a>
-          {% endif %} {% if show.uuid == 'bclebowski002' %}
-          <a href="lebowski" class="btn btn-warning btn-modern"
-            style="position: relative; z-index: 1; background-color: #ffc107; color: #000;"
-            aria-label="View Lebowski ups and downs guide">ups and downs</a>
-          {% endif %}
-        </p>
-        <p class="text-center fw-bold fs-3 my-0" style="color: #66d9ff;">{{show.special}}</p>
-      </div>
-    </article>
-  </div>
-  {% endfor %}
-</div>
-
-<div class="row mb-3">
-  <div class="col text-center rounded align-self-center">
-    <p class="fofbb p-0 m-0"
-      style="color: #ffffff; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9), 0 0 20px rgba(255, 26, 26, 0.6); font-size: 1.4rem; font-weight: 600;">
-      It's a lot like <span style="filter: blur(2px)" aria-label="sex">sex</span>: if you don't
-      participate, you can't <span class="DF text-bold" style="color: #ff3333;">come!</span>
+  <div class="position-relative z-1 w-100">
+    <h1 class="display-1 fw-bold text-neon font-header mb-4 animate-fade-in"
+      style="font-size: clamp(3rem, 10vw, 6rem); color: var(--primary-blood);">
+      The Bawdy Caste
+    </h1>
+    <p class="lead text-white font-limelight mb-4 fs-2" style="text-shadow: 2px 2px 4px #000;">
+      San Francisco's Rocky Horror Picture Show Shadow Cast
     </p>
-    <p class="m-0 p-0 fofbb small" style="color: #cccccc; opacity: 0.7;">
-      that's not true... but it should be
-    </p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col col-12">
-    <div class="alert text-uppercase fofbb"
-      style="background-color: #1a1a1a; color: #ffffff; border: 2px solid #ff3333;" role="alert">
-      <h2 class="alert-heading" style="color: #ffffff;">
-        <div class="row align-items-center justify-content-evenly text-center w-100">
-          <div class="col fs-2" aria-hidden="true">&#128567;</div>
-          <div class="col text-center">masks recommended</div>
-          <div class="col fs-2" aria-hidden="true">&#128567;</div>
-        </div>
-      </h2>
-    </div>
-  </div>
-</div>
-
-{% if site.virginsofthenight != blank? %}
-<div class="row text-end g-3 mb-3">
-  <div class="col col-12 col-md-4 order-1 order-md-0">
-    <div class="card bg-dark">
-      <img class="card-img-top" src="{{page.virginsofthenight}}"
-        alt="virgins of the night, two individuals dressed in a wedding dress and a white coat, participating in the show on the occasion of their first viewing">
-      <div class="card-body text-center">
-        <h2 class="card-title text-danger df">Virgins of the Night</h2>
-        <p class="text-light p-0 m-0">April 26 2025</p>
-      </div>
-    </div>
-  </div>
-</div>
-{% endif %}
-
-<div class="row align-items-start g-3 mb-4">
-  <div class="col-12 col-md-6">
-    <div class="p-3 border border-3 border-danger rounded"
-      style="background-color: rgba(255, 255, 255, 0.95); color: #000000;">
-      <h2 style="color: #000000; font-weight: 700;">Rules for Homemade Prop Bags</h2>
-      <div class="px-3">
-        <dl>
-          <dt>No Wet, No Meat, No Wet Meat</dt>
-          <dd>
-            You should not bring anything wet or designed to get other people wet (squirt
-            guns, super soakers, small lakes or ponds), nor should you bring any meat
-            (hotdogs, baloney, weiners). The flesh-meat that comprises your body is
-            acceptable.
-          </dd>
-
-          <dt>Do Not Feed After Midnight</dt>
-          <dd>
-            Please don't bring anything that would feed, make a meal for, wine and dine,
-            sustain, victual, or otherwise nourish any diminutive creatures.
-          </dd>
-          <dd>
-            For the avoidance of doubt, <b>do not bring</b>: rice, toast, fine confetti,
-            glitter, condiment packets, eggs, tomatoes, or prunes.
-          </dd>
-        </dl>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-12 col-md-6">
-    <div class="alert border border-success border-5 neon-border"
-      style="background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(5px); color: #ffffff;">
-      <div class="row justify-content-together">
-        <div class="col">
-          <h2 class="fofbb" style="color: #ffffff; text-shadow: 0 0 10px rgba(40, 167, 69, 0.8);">Buy a <u
-              style="color: #5efc82;">Bawdy Bag&trade;</u></h2>
-          <p class="lead mb-0 pb-0" style="color: #ffffff; font-weight: 600;">one for $3 &mdash; two for $5</p>
-          <p class="small pt-0 mt-0" style="color: #cccccc;">
-            sharing discouraged
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
-              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-              <path
-                d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z" />
-            </svg>
-          </p>
-          <p>
-            <strong>Participation Kits</strong>: everything you need to throw, blow, and
-            glow at the <span class="df">rocky horror picture show</span>
-          </p>
-        </div>
-        <div class="col-12 col-md-3">
-          <img class="img-fluid" style="transform: rotate(-15deg); filter: drop-shadow(6px 6px 6px black)"
-            src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/02663cfa-82f4-4695-311e-609f42f9af00/public"
-            alt="participation kits for sale for three dollars, two for five. everything you need to throw blow and glow at the rocky horror picture show" />
-        </div>
-      </div>
-      <p class="text-center h4 fofbb">Don't Dream It &mdash; Buy It!</p>
-    </div>
-  </div>
-</div>
-
-<div class="row my-3 row-cols-1 row-cols-md-2 align-items-center">
-  <div class="col">{% include instagram.html %}</div>
-  <div class="col">
-    <img class="w-100 rounded"
-      src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/34de2a01-9927-4217-6f5e-0e40b2422600/public"
-      alt="a giant doctor, frank n. furter, alighting atop the golden gate bridge" />
-  </div>
-</div>
-
-<section id="rhps50" class="d-none">
-  <div class="row">
-    <div class="col col-12 col-sm-10 mx-auto text-center justify-content-center">
-      <givebutter-widget id="LqBb2g"></givebutter-widget>
-      <h2 class="fofbb text-light">50th Anniversary Celebration Fund</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-5 col-sm-1 mx-auto">
-      <givebutter-widget id="p7Y1rL"></givebutter-widget>
+    <div class="d-flex justify-content-center gap-3">
+      {% assign next_show = site.data.shows | sort: 'date' | first %}
+      <a href="{{next_show.link.ticket}}" target="_blank"
+        class="btn btn-lg btn-danger font-header text-uppercase px-5 py-3 shadow-lg hover-glow"
+        style="background-color: var(--primary-blood); border: none;">
+        Get Tickets
+      </a>
+      <a href="#shows" class="btn btn-lg btn-outline-light font-header text-uppercase px-5 py-3 shadow-lg">
+        View Schedule
+      </a>
     </div>
   </div>
 </section>
 
-<div class="row my-4 d-none">
-  <div class="col-11 col-md-7 col-lg-6 mx-auto p-3 bg-light text-dark text-center rounded">
-    <p class="m-0 p-0">
-      Check out these other Bay Area Rocky Horror Shadowcasts:<br />
-      <strong>East Bay:</strong> so much fun they're
-      <a class="link-dark" href="https://blrocky.com">Barely Legal</a>!<br />
-      <strong>UC Davis:</strong>
-      <a class="link-dark" href="https://instagram.com/rockyhorrorclubatucd">Erotic Nightmares</a>
-      beyond any measure!<br />
-      <strong>UC Santa Cruz:</strong>
-      <a href="https://www.instagram.com/slugsinfishnets" class="link-dark">Slugs in Fishnets</a><br />
-      <strong>UC Berkeley:</strong>
-      <a class="link-dark" href="https://www.instagram.com/rhpsberkeley">Transylvanian Temptations</a>
-    </p>
+<!-- News Ticker / Marquee -->
+<div class="bg-black py-2 overflow-hidden border-top border-bottom border-danger border-opacity-50">
+  <div class="text-nowrap" style="animation: scroll-left 20s linear infinite;">
+    <span class="font-limelight text-uppercase fs-4 mx-4" style="color: var(--secondary-gold);">
+      Performing Live at the Balboa Theater &bull; The Last Saturday of Every Month &bull; Don't Dream It, Be It &bull;
+      Full Audience Participation &bull;
+    </span>
+    <span class="font-limelight text-uppercase fs-4 mx-4" style="color: var(--secondary-gold);">
+      Performing Live at the Balboa Theater &bull; The Last Saturday of Every Month &bull; Don't Dream It, Be It &bull;
+      Full Audience Participation &bull;
+    </span>
   </div>
-  <p class="text-center p-0 m-0 mt-1 text-muted small">want to be on this list? <a href="mailto:info@bawdycaste.com"
-      class="text-muted">let us know</a></p>
 </div>
 
-{% include footer.html %}
+<style>
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+</style>
+
+<!-- Upcoming Shows (Poster Grid) -->
+<section id="shows" class="py-5">
+  <div class="container">
+    <h2 class="text-center font-limelight display-4 mb-5 text-neon" style="color: var(--text-main);">Now Showing</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" role="list">
+      {% assign shows = site.data.shows | sort: 'date' %}
+      {% for show in shows %}
+      <div id="{{show.uuid}}" class="col" role="listitem">
+        <article
+          class="glass-panel h-100 p-4 rounded-3 hover-lift transition-all position-relative overflow-hidden group">
+          <!-- Ribbon/Badge -->
+          <div class="position-absolute top-0 end-0 bg-danger text-white px-3 py-1 font-header small shadow"
+            style="border-bottom-left-radius: 8px;">
+            {{show.date | date: "%b %d"}}
+          </div>
+
+          <h3 class="font-header text-center mb-2 mt-3 display-6" style="color: var(--primary-blood);">
+            {{show.title}}
+          </h3>
+
+          <div class="text-center mb-4">
+            <p class="mb-0 font-limelight fs-5">{{show.venue}}</p>
+            <p class="text-muted small">{{show.time}} &bull; {{show.location}}</p>
+            <span class="badge bg-dark border border-secondary mt-2">{{show.io}}</span>
+            {% if show.ticketcost %}<span class="badge bg-danger mt-2">{{show.ticketcost}}</span>{% endif %}
+          </div>
+
+          <div class="d-grid gap-2">
+            <a href="{{show.link.ticket}}" target="_blank" class="btn btn-outline-danger font-header text-uppercase">Buy
+              Tickets</a>
+            {% if show.link.fb %}
+            <a href="{{show.link.fb}}" target="_blank" class="btn btn-sm btn-outline-secondary font-limelight">Facebook
+              Event</a>
+            {% endif %}
+          </div>
+
+          {% if show.special %}
+          <div class="mt-3 text-center">
+            <p class="text-neon fs-5 mb-0" style="color: var(--secondary-gold);">{{show.special}}</p>
+          </div>
+          {% endif %}
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Info & Participation -->
+<section class="py-5 bg-black bg-opacity-50">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <!-- Prop Bags -->
+      <div class="col-lg-6">
+        <div class="glass-panel p-4 rounded neon-border">
+          <h3 class="font-limelight text-center mb-3 text-white">Participation Kits</h3>
+          <div class="row align-items-center">
+            <div class="col-8">
+              <p class="lead">Everything you need to throw, blow, and glow!</p>
+              <ul class="list-unstyled">
+                <li class="mb-2"><strong style="color: var(--secondary-gold);">Bawdy Bag&trade;</strong> - $3 (2 for $5)
+                </li>
+                <li class="small text-muted">Sharing discouraged (get your own!)</li>
+              </ul>
+              <p class="font-header text-center mt-3" style="color: var(--primary-blood);">Don't Dream It — Buy It!</p>
+            </div>
+            <div class="col-4">
+              <img class="img-fluid rounded shadow" style="transform: rotate(5deg);"
+                src="https://imagedelivery.net/tnNZckn1-G2Rt-WMSjLbNw/02663cfa-82f4-4695-311e-609f42f9af00/public"
+                alt="Prop bag">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rules -->
+      <div class="col-lg-6">
+        <div class="p-4 rounded border border-danger bg-white text-black bg-opacity-90">
+          <h3 class="font-header text-center mb-3">House Rules</h3>
+          <dl class="row">
+            <dt class="col-sm-4 text-danger">No Wet/Meat</dt>
+            <dd class="col-sm-8">No water guns, no hotdogs, no baloney. Rice and toast are also prohibited by the venue.
+            </dd>
+
+            <dt class="col-sm-4 text-danger">Clean Up</dt>
+            <dd class="col-sm-8">Respect the historic Balboa Theater. Don't throw things at the screen!</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Additional Info -->
+<div class="row my-4">
+  <div class="col-11 col-md-7 col-lg-6 mx-auto p-3 text-center rounded glass-panel">
+    <p class="m-0 p-0 text-muted">
+      Support our friends:
+      <a class="link-light text-decoration-underline" href="https://blrocky.com">Barely Legal</a> (East Bay),
+      <a class="link-light text-decoration-underline" href="https://instagram.com/rockyhorrorclubatucd">Erotic
+        Nightmares</a> (UC Davis),
+      <a class="link-light text-decoration-underline" href="https://www.instagram.com/slugsinfishnets">Slugs in
+        Fishnets</a> (UCSC),
+      <a class="link-light text-decoration-underline" href="https://www.instagram.com/rhpsberkeley">Transylvanian
+        Temptations</a> (Berkeley)
+    </p>
+  </div>
+</div>

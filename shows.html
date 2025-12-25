@@ -4,40 +4,38 @@ title: Show Archive
 published: false
 ---
 
-<div class="row mb-4">
-  <div class="col text-center">
-    <h1 class="df animate-fade-in" style="color: #ff3333; text-shadow: 0 0 20px rgba(255, 51, 51, 0.6); font-size: 3rem; margin-bottom: 1rem;">Show Archive</h1>
-    <p class="lead" style="color: #ffffff; font-size: 1.2rem;">All of our past performances</p>
+<div class="row mb-5 text-center">
+  <div class="col">
+    <h1 class="display-3 font-header text-neon text-primary-blood animate-fade-in mb-3">Show Archive</h1>
+    <p class="lead font-limelight text-white fs-3">All of our past performances</p>
   </div>
 </div>
 
-<div class="row g-4">
+<div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
   {% for show in site.shows | reverse %}
-  <div class="col-12 col-md-6 col-lg-4 animate-fade-in">
-    <article class="card h-100 shadow-lg" style="background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(10px); border: 2px solid rgba(255, 51, 51, 0.4); transition: all 0.3s ease;">
-      <div class="card-header" style="background: linear-gradient(135deg, rgba(200, 10, 10, 1) 0%, rgba(160, 8, 8, 1) 100%); color: #ffffff; font-weight: 600;">
-        <h5 class="card-title mb-0" style="font-size: 1.2rem;">{{ show.date | date: '%B %d, %Y' }}</h5>
+  <div class="col animate-fade-in">
+    <article class="h-100 glass-panel p-4 rounded hover-lift transition-all position-relative group">
+      <div
+        class="position-absolute top-0 end-0 bg-danger text-white px-3 py-1 font-header small shadow rounded-bottom-start">
+        {{ show.date | date: '%b %Y' }}
       </div>
-      <div class="card-body d-flex flex-column">
-        <p class="mb-2">
-          <span class="badge" style="background-color: #ff3333; font-size: 0.9rem; padding: 0.5rem 0.75rem;">{{show.category}}</span>
+
+      <div class="d-flex flex-column h-100">
+        <div class="mb-3">
+          <span class="badge border border-danger text-danger bg-danger bg-opacity-10">{{show.category}}</span>
+        </div>
+
+        <h3 class="font-header text-white mb-3">{{show.title}}</h3>
+
+        <p class="text-muted small mb-4 flex-grow-1">
+          {{ show.excerpt | strip_html | truncatewords: 25 }}
         </p>
-        <h3 class="card-subtitle mb-3" style="color: #ff6666; font-weight: 700;">{{show.title}}</h3>
-        <p class="card-text mb-3" style="color: #e8e8e8;">{{ show.excerpt | strip_html | truncatewords: 30 }}</p>
+
         <div class="mt-auto">
-          <a href="{{ show.url }}" class="btn btn-danger btn-modern w-100" style="min-height: 44px; font-weight: 600;">View Details</a>
+          <a href="{{ show.url }}" class="btn btn-outline-danger w-100 text-uppercase font-header">View Details</a>
         </div>
       </div>
     </article>
   </div>
   {% endfor %}
 </div>
-
-<style>
-.card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 26, 26, 0.4);
-  border-color: rgba(255, 51, 51, 0.6);
-}
-</style>
-

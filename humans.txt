@@ -5,7 +5,6 @@ made with love by members of the bawdy caste:
 
 - chris
 - dave
-- rob
 
 site last updated on {{ site.time | date: '%B %d, %Y' }}
 

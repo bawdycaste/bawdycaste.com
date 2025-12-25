@@ -5,48 +5,52 @@ description: last saturday of every month
 ---
 
 <div class="row">
-    <div class="col text-center">
-        <h1 class="display-1 text-uppercase fofbb text-black">OUR NEXT SHOW IS {{site.data.shows[0].date | date: "%A %B %d, %Y"}}</h1>
-    </div>
+  <div class="col text-center">
+    <h1 class="display-1 text-uppercase fofbb text-black">OUR NEXT SHOW IS {{site.data.shows[0].date | date: "%A %B %d,
+      %Y"}}</h1>
+  </div>
 </div>
 
 <div class="row mt-5 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-xl-3  justify-content-evenly align-items-center">
-    {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows | limit: 1 %}
-    <div id="{{show.uuid}}" class="col my-5">
-      <div class="alert alert-dark border border-4 {% if show.movie == 'rhps' %}border-dark{% endif %}{% if show.movie == 'lebowski' %}border-warning{% endif %} p-1 shadow-lg">
-        <h2 class="alert-header text-center fw-bold">
-          {{show.date | date: "%a %b %d, %Y"}}
-        </h2>
-        <p class="h2 text-center p-0 m-0 {% if show.movie == 'lebowski' %}font-tbl{% endif %}{% if show.movie == 'rhps' %}font-doublefeature text-danger text-shadow{% endif %}">{{show.title}}</p>
-        <h3 class="text-center text-uppercase fw-bold text-danger">
-          {% if show.link.venue != blank? %}<a href="{{show.link.venue}}" class="link-danger"
-            target="_blank">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank? %}{{show.venue}}{% endif %}
-        </h3>
-        <p class="text-center">
-          <span>{{show.location}}</span>
-          <br />
-          <span>{{show.time}}</span>
-          <span class="badge bg-dark">{{show.io}}</span>
-        </p>
-        {% if show.ticketcost != blank? %}
-        <p class="text-center">
-          <span class="bg-dark text-light px-1">{{show.ticketcost}}</span>
-        </p>
+  {% assign shows = site.data.shows | sort: 'date' %} {% for show in shows limit:1 %}
+  <div id="{{show.uuid}}" class="col my-5">
+    <div
+      class="alert alert-dark border border-4 {% if show.movie == 'rhps' %}border-dark{% endif %}{% if show.movie == 'lebowski' %}border-warning{% endif %} p-1 shadow-lg">
+      <h2 class="alert-header text-center fw-bold">
+        {{show.date | date: "%a %b %d, %Y"}}
+      </h2>
+      <p
+        class="h2 text-center p-0 m-0 {% if show.movie == 'lebowski' %}font-tbl{% endif %}{% if show.movie == 'rhps' %}font-doublefeature text-danger text-shadow{% endif %}">
+        {{show.title}}</p>
+      <h3 class="text-center text-uppercase fw-bold text-danger">
+        {% if show.link.venue != blank? %}<a href="{{show.link.venue}}" class="link-danger"
+          target="_blank">{{show.venue}}</a>{% endif %}{% if show.link.venue == blank? %}{{show.venue}}{% endif %}
+      </h3>
+      <p class="text-center">
+        <span>{{show.location}}</span>
+        <br />
+        <span>{{show.time}}</span>
+        <span class="badge bg-dark">{{show.io}}</span>
+      </p>
+      {% if show.ticketcost != blank? %}
+      <p class="text-center">
+        <span class="bg-dark text-light px-1">{{show.ticketcost}}</span>
+      </p>
+      {% endif %}
+      <p class="btn-group w-100 mb-0 shadow shadow-lg">
+        <a href="{{show.link.ticket}}" class="btn btn-danger {% if show.link.ticket==blank?%}disabled{%endif%}"
+          target="_blank">tickets</a>
+        <a href="{{show.link.fb}}" class="btn btn-secondary {% if show.link.fb == blank?%}disabled{%endif%}"
+          target="_blank">fb event</a>
+        {% if show.uuid == 'bclebowski001' %}
+        <a href="lebowski" class="btn btn-warning">ins and outs</a>
         {% endif %}
-        <p class="btn-group w-100 mb-0 shadow shadow-lg">
-          <a href="{{show.link.ticket}}" class="btn btn-danger {% if show.link.ticket==blank?%}disabled{%endif%}"
-            target="_blank">tickets</a>
-          <a href="{{show.link.fb}}" class="btn btn-secondary {% if show.link.fb == blank?%}disabled{%endif%}"
-            target="_blank">fb event</a>
-            {% if show.uuid == 'bclebowski001' %}
-            <a href="lebowski" class="btn btn-warning">ins and outs</a>
-            {% endif %}
-            {% if show.uuid == 'bclebowski002' %}
-            <a href="lebowski" class="btn btn-warning">ups and downs</a>
-            {% endif %}
-        </p>
-        <p class="text-center text-primary fw-bold fs-3 my-0">{{show.special}}</p>
-      </div>
+        {% if show.uuid == 'bclebowski002' %}
+        <a href="lebowski" class="btn btn-warning">ups and downs</a>
+        {% endif %}
+      </p>
+      <p class="text-center text-primary fw-bold fs-3 my-0">{{show.special}}</p>
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
+</div>

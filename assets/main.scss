@@ -1,53 +1,92 @@
 ---
 ---
 
-$red: #ff1a1a;
-$red-darker: #C80A0A;
+@import "design-system";
+
+$red: #b30000; // Fixed: Sass color functions need a real color, not a CSS var
+$red-darker: darken(#b30000, 10%);
 
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import "bootstrap";
 
-html, body {width: 100vw!important; overflow-x: hidden!important} 
+
+html,
+body {
+  width: 100vw !important;
+  overflow-x: hidden !important
+}
 
 body {
-    color: #e8e8e8;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+  background-color: var(--bg-deep);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 1.1rem; // Bumped up slightly for readability
+  line-height: 1.7;
+  @include film-grain;
+}
+
+// Global Text & Link Overrides for Dark Mode
+a {
+  color: var(--secondary-gold);
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: lighten(#d4af37, 15%);
+    text-decoration: underline;
+  }
+}
+
+.text-muted {
+  color: var(--text-muted) !important; // Force override of Bootstrap default
 }
 
 .bisexual-lighting {
-    background-color: #1a1a2e;
-    background-image: linear-gradient(to left, rgba(200, 10, 10, 0.85), rgba(43, 36, 108, 0.9));
-    background-size: cover;
-    background-position: center;
+  background-color: #1a1a2e;
+  background-image: linear-gradient(to left, rgba(200, 10, 10, 0.85), rgba(43, 36, 108, 0.9));
+  background-size: cover;
+  background-position: center;
 }
 
-.text-red{color: #ff3333 !important;}
-.link-red{color: rgba(200, 10, 10, 0.97) !important;}
+.text-red {
+  color: #ff3333 !important;
+}
+
+.link-red {
+  color: rgba(200, 10, 10, 0.97) !important;
+}
+
 .text-rainbow {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-.text-rainbow-2{
-    background-image: 
-      linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
-    animation: move 1000s linear infinite;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-@keyframes move {to {background-position: 4500vh;}}
 
-.text-shadow{text-shadow: 2px 2px 10px black;}
+.text-rainbow-2 {
+  background-image:
+    linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 1000s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 10px black;
+}
 
 .social a {
-    font-size: 1.69em;
-    margin: auto 6%;
-    color: white;
-    text-decoration: none;
+  font-size: 1.69em;
+  margin: auto 6%;
+  color: white;
+  text-decoration: none;
 }
 
 // Modern Animations & Effects
@@ -57,6 +96,7 @@ body {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -64,15 +104,18 @@ body {
 }
 
 @keyframes glow {
-  0%, 100% {
+
+  0%,
+  100% {
     text-shadow: 0 0 20px rgba(255, 26, 26, 0.9),
-                 0 0 40px rgba(255, 26, 26, 0.7),
-                 4px 4px 8px rgba(0, 0, 0, 0.9);
+      0 0 40px rgba(255, 26, 26, 0.7),
+      4px 4px 8px rgba(0, 0, 0, 0.9);
   }
+
   50% {
     text-shadow: 0 0 30px rgba(255, 51, 51, 1),
-                 0 0 60px rgba(255, 26, 26, 0.9),
-                 4px 4px 8px rgba(0, 0, 0, 0.9);
+      0 0 60px rgba(255, 26, 26, 0.9),
+      4px 4px 8px rgba(0, 0, 0, 0.9);
   }
 }
 
@@ -80,15 +123,19 @@ body {
   0% {
     background-position: -1000px 0;
   }
+
   100% {
     background-position: 1000px 0;
   }
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -114,14 +161,14 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease;
-  
+
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 40px 0 rgba(255, 26, 26, 0.5),
-                0 0 25px rgba(255, 26, 26, 0.4);
+      0 0 25px rgba(255, 26, 26, 0.4);
     border: 2px solid rgba(255, 51, 51, 0.6);
   }
-  
+
   &:focus-within {
     outline: 3px solid rgba(255, 255, 255, 0.8);
     outline-offset: 2px;
@@ -135,7 +182,7 @@ body {
   transition: all 0.3s ease;
   font-weight: 600;
   min-height: 44px;
-  
+
   &::before {
     content: '';
     position: absolute;
@@ -148,17 +195,17 @@ body {
     transform: translate(-50%, -50%);
     transition: width 0.6s, height 0.6s;
   }
-  
+
   &:hover::before {
     width: 300px;
     height: 300px;
   }
-  
+
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 20px rgba(255, 26, 26, 0.7);
   }
-  
+
   &:focus {
     outline: 3px solid rgba(255, 255, 255, 0.9);
     outline-offset: 3px;
@@ -170,7 +217,7 @@ body {
 .hero-title {
   position: relative;
   display: inline-block;
-  
+
   &::after {
     content: '';
     position: absolute;
@@ -178,10 +225,10 @@ body {
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(90deg, 
-      transparent,
-      rgba(200, 10, 10, 0.8),
-      transparent);
+    background: linear-gradient(90deg,
+        transparent,
+        rgba(200, 10, 10, 0.8),
+        transparent);
     animation: shimmer 3s infinite;
   }
 }
@@ -191,28 +238,28 @@ body {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 2px solid rgba(255, 255, 255, 0.2);
   color: #ffffff;
-  
+
   &:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5),
-                0 0 30px rgba(255, 26, 26, 0.4);
+      0 0 30px rgba(255, 26, 26, 0.4);
     border-color: rgba(255, 51, 51, 0.6);
   }
 }
 
 .card-header {
-  background: linear-gradient(135deg, 
-    rgba(200, 10, 10, 1) 0%, 
-    rgba(160, 8, 8, 1) 100%);
+  background: linear-gradient(135deg,
+      rgba(200, 10, 10, 1) 0%,
+      rgba(160, 8, 8, 1) 100%);
   transition: all 0.3s ease;
   color: #ffffff;
   font-weight: 600;
 }
 
 .card:hover .card-header {
-  background: linear-gradient(135deg, 
-    rgba(255, 26, 26, 1) 0%, 
-    rgba(200, 10, 10, 1) 100%);
+  background: linear-gradient(135deg,
+      rgba(255, 26, 26, 1) 0%,
+      rgba(200, 10, 10, 1) 100%);
 }
 
 .card-body {
@@ -224,12 +271,29 @@ body {
 }
 
 // Staggered Animation Delays
-.col:nth-child(1) { animation-delay: 0.1s; }
-.col:nth-child(2) { animation-delay: 0.2s; }
-.col:nth-child(3) { animation-delay: 0.3s; }
-.col:nth-child(4) { animation-delay: 0.4s; }
-.col:nth-child(5) { animation-delay: 0.5s; }
-.col:nth-child(6) { animation-delay: 0.6s; }
+.col:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.col:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.col:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.col:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.col:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.col:nth-child(6) {
+  animation-delay: 0.6s;
+}
 
 // Neon Border Effect
 .neon-border {
@@ -239,9 +303,12 @@ body {
 }
 
 @keyframes neon-pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     filter: drop-shadow(0 0 5px rgba(200, 10, 10, 0.5));
   }
+
   50% {
     filter: drop-shadow(0 0 20px rgba(200, 10, 10, 0.8));
   }
@@ -252,36 +319,43 @@ html {
   scroll-behavior: smooth;
 }
 
-.text-black {color: black}
+.text-black {
+  color: black
+}
 
 hr.style-eight {
-    overflow: visible;
-    /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
+  overflow: visible;
+  /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
 }
 
 hr.style-eight:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
 }
 
-.last-saturday{
-     -webkit-text-fill-color: rgba(0, 0, 0, 0);
-    -webkit-text-stroke-width: .6px;
-    -webkit-text-stroke-color: whitesmoke;
+.last-saturday {
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: .6px;
+  -webkit-text-stroke-color: whitesmoke;
 }
 
-#reveal{display:none;}
-#reveal:target{display:flex;}
+#reveal {
+  display: none;
+}
+
+#reveal:target {
+  display: flex;
+}
 
 .april-fools {
   min-height: 100vh;
@@ -297,6 +371,7 @@ hr.style-eight:after {
   font-weight: 400;
   font-style: normal;
 }
+
 .font-limelight {
   font-family: "Limelight", sans-serif;
   font-weight: 400;
@@ -304,57 +379,95 @@ hr.style-eight:after {
 }
 
 @font-face {
-    font-family: "f13";
-    src: url("/assets/fonts/F13.ttf") format("truetype");
-    font-display: swap;
+  font-family: "f13";
+  src: url("/assets/fonts/F13.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "DF";
-    src: url("/assets/fonts/DF.ttf") format("truetype");
-    font-display: swap;
+  font-family: "DF";
+  src: url("/assets/fonts/DF.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "sbitn";
-    src: url("/assets/fonts/SBITN.ttf") format("truetype");
-    font-display: swap;
+  font-family: "sbitn";
+  src: url("/assets/fonts/SBITN.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "fofbb";
-    src: url("/assets/fonts/FOFBB.ttf") format("truetype");
-    font-display: swap;
+  font-family: "fofbb";
+  src: url("/assets/fonts/FOFBB.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "TBL";
-    src: url("/assets/fonts/TBL.ttf") format("truetype");
-    font-display: swap;
+  font-family: "TBL";
+  src: url("/assets/fonts/TBL.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "TBL_1";
-    src: url("/assets/fonts/TBL_1.TTF") format("truetype");
-    font-display: swap;
+  font-family: "TBL_1";
+  src: url("/assets/fonts/TBL_1.TTF") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "ss";
-    src: url("/assets/fonts/SS.ttf") format("truetype");
-    font-display: swap;
+  font-family: "ss";
+  src: url("/assets/fonts/SS.ttf") format("truetype");
+  font-display: swap;
 }
 
-.fofbb{font-family: "fofbb";}
-.ss {font-family: "ss";}
-.f13 {font-family: "f13";}
-.df {font-family: "DF";}
-.font-doublefeature {font-family: "DF";}
-.sbitn {font-family: "sbitn";}
-.font-tbl{font-family: "TBL";z-index: 2;}
-.font-tbl02{font-family: "TBL_1";z-index: 2;}
-.font-hl{font-family: 'Atkinson Hyperlegible', sans-serif;}
-.font-fofbb{font-family: "fofbb";}
-.TBL {font-family: "TBL";z-index: 2;}
-.TBL_1 {font-family: "TBL_1";z-index: 2;}
+.fofbb {
+  font-family: "fofbb";
+}
 
+.ss {
+  font-family: "ss";
+}
+
+.f13 {
+  font-family: "f13";
+}
+
+.df {
+  font-family: "DF";
+}
+
+.font-doublefeature {
+  font-family: "DF";
+}
+
+.sbitn {
+  font-family: "sbitn";
+}
+
+.font-tbl {
+  font-family: "TBL";
+  z-index: 2;
+}
+
+.font-tbl02 {
+  font-family: "TBL_1";
+  z-index: 2;
+}
+
+.font-hl {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.font-fofbb {
+  font-family: "fofbb";
+}
+
+.TBL {
+  font-family: "TBL";
+  z-index: 2;
+}
+
+.TBL_1 {
+  font-family: "TBL_1";
+  z-index: 2;
+}
