@@ -1,180 +1,118 @@
 ---
 layout: main
-permalink: nye/
+permalink: /nye/
 sitemap: false
 ---
-<style>
-    :root {
-        --color-white: #ffffff;
-        --color-black: #202020;
-        --color-glass: rgba(255, 255, 255, 0.05);
-        --color-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-    }
 
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        /* font-family: "Poppins", sans-serif; */
-        color: var(--color-white);
-    }
+<div class="d-flex align-items-center justify-content-center min-vh-100 py-5">
+    <div class="container text-center">
+        <!-- Main Content Panel -->
+        <div class="glass-panel p-5 rounded-4 border border-secondary border-opacity-25 shadow-lg position-relative overflow-hidden">
+            
+            <!-- Decorative Background Glow -->
+            <div class="position-absolute top-50 start-50 translate-middle w-100 h-100" style="background: radial-gradient(circle, rgba(179,0,0,0.1) 0%, rgba(0,0,0,0) 70%); pointer-events: none; z-index: 0;"></div>
 
-    body {
-        background-color: black;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover;
-    }
+            <div class="position-relative z-1">
+                <div class="heading mb-5">
+                    <h3 class="text-neon font-limelight mb-3 fs-3">Countdown to</h3>
+                    <h1 class="display-1 font-special-elite text-white text-shadow fw-bold animate-fade-in" style="font-size: clamp(4rem, 10vw, 8rem);">2026</h1>
+                </div>
 
-    .wrapper {
-        position: absolute;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        left: 50%;
-        font-size: 16px;
-    }
+                <!-- Countdown Grid -->
+                <div class="countdown row row-cols-2 row-cols-md-4 g-4 justify-content-center">
+                    
+                    <!-- Days -->
+                    <div class="col">
+                        <div class="glass-card p-3 rounded-3 h-100 d-flex flex-column justify-content-center align-items-center border-danger border-opacity-50">
+                            <span class="num display-3 font-special-elite text-primary-blood mb-2" id="day-box">00</span>
+                            <span class="text-uppercase font-body letter-spacing-2 small text-muted">Days</span>
+                        </div>
+                    </div>
 
-    .heading {
-        text-align: center;
-        margin-bottom: 4em;
-    }
+                    <!-- Hours -->
+                    <div class="col">
+                        <div class="glass-card p-3 rounded-3 h-100 d-flex flex-column justify-content-center align-items-center border-danger border-opacity-50">
+                            <span class="num display-3 font-special-elite text-primary-blood mb-2" id="hr-box">00</span>
+                            <span class="text-uppercase font-body letter-spacing-2 small text-muted">Hours</span>
+                        </div>
+                    </div>
 
-    .heading h1 {
-        text-shadow: var(--color-shadow);
-        font-size: 6.2em;
-        font-weight: 800;
-        letter-spacing: 0.15em;
-    }
+                    <!-- Minutes -->
+                    <div class="col">
+                        <div class="glass-card p-3 rounded-3 h-100 d-flex flex-column justify-content-center align-items-center border-danger border-opacity-50">
+                            <span class="num display-3 font-special-elite text-primary-blood mb-2" id="min-box">00</span>
+                            <span class="text-uppercase font-body letter-spacing-2 small text-muted">Minutes</span>
+                        </div>
+                    </div>
 
-    .heading h3 {
-        font-size: 1.6em;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        font-weight: 600;
-        background-color: var(--color-glass);
-        backdrop-filter: blur(12px);
-        box-shadow: var(--color-shadow);
-        padding: 8px 30px;
-        display: inline-block;
-    }
+                    <!-- Seconds -->
+                    <div class="col">
+                        <div class="glass-card p-3 rounded-3 h-100 d-flex flex-column justify-content-center align-items-center border-danger border-opacity-50">
+                            <span class="num display-3 font-special-elite text-primary-blood mb-2" id="sec-box">00</span>
+                            <span class="text-uppercase font-body letter-spacing-2 small text-muted">Seconds</span>
+                        </div>
+                    </div>
 
-    /* align countdown */
-    .countdown {
-        width: 95vw;
-        display: flex;
-        justify-content: space-evenly;
-        gap: 10px;
-    }
+                </div>
 
-    .box {
-        width: 28vmin;
-        height: 29vmin;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        position: relative;
-    }
-
-    span.num {
-        background-color: var(--color-glass);
-        backdrop-filter: blur(12px);
-        height: 100%;
-        width: 100%;
-        display: grid;
-        place-items: center;
-        font-size: 4em;
-        box-shadow: var(--color-shadow);
-        border-radius: 0.1em;
-    }
-
-    span.num:after {
-        content: "";
-        position: absolute;
-        background-color: var(--color-glass);
-        height: 100%;
-        width: 50%;
-        left: 0;
-    }
-
-    span.text {
-        font-size: 1em;
-        background-color: var(--color-white);
-        color: var(--color-black);
-        display: block;
-        width: 80%;
-        position: relative;
-        text-align: center;
-        bottom: 20px;
-        padding: 0.7em 0;
-        font-weight: 600;
-        border-radius: 0.3em;
-        box-shadow: var(--color-shadow);
-    }
-</style>
-
-<div class="wrapper df">
-    <div class="heading d-none">
-        <h3>Countdown Till</h3>
-        <h1>2023</h1>
-    </div>
-    <div class="countdown align-items-center">
-        <div class="box">
-            <span class="num" id="day-box">00</span>
-            <span class="text f13 fs-1 p-0">Days</span>
-        </div>
-        <div class="box">
-            <span class="num" id="hr-box">00</span>
-            <span class="text f13 fs-1 p-0">Hours</span>
-        </div>
-        <div class="box">
-            <span class="num" id="min-box">00</span>
-            <span class="text f13 fs-1 p-0">Minutes</span>
-        </div>
-        <div class="box">
-            <span class="num" id="sec-box">00</span>
-            <span class="text f13 fs-1 p-0">Seconds</span>
+                <!-- Completion Message Container -->
+                <div id="new-year-message" class="d-none mt-5 animate-fade-in">
+                    <h1 class="display-2 font-limelight text-neon text-center">
+                        Happy New Year!<br>
+                        <span class="fs-2 font-special-elite text-white mt-3 d-block">Don't Dream It, Be It.</span>
+                    </h1>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 <script>
-    let dayBox = document.getElementById("day-box");
-    let hrBox = document.getElementById("hr-box");
-    let minBox = document.getElementById("min-box");
-    let secBox = document.getElementById("sec-box");
-    let endDate = new Date(2025, 0, 1, 00, 00);
-    let endTime = endDate.getTime();
+    // Target Date: Jan 1, 2026 00:00:00
+    const endDate = new Date(2026, 0, 1, 0, 0, 0);
+    const endTime = endDate.getTime();
 
-    function countdown() {
-        let todayDate = new Date();
-        let todayTime = todayDate.getTime();
-        let remainingTime = endTime - todayTime;
-        let oneMin = 60 * 1000;
-        let oneHr = 60 * oneMin;
-        let oneDay = 24 * oneHr;
+    const dayBox = document.getElementById("day-box");
+    const hrBox = document.getElementById("hr-box");
+    const minBox = document.getElementById("min-box");
+    const secBox = document.getElementById("sec-box");
+    const countdownContainer = document.querySelector(".countdown");
+    const messageContainer = document.getElementById("new-year-message");
+    const headingContainer = document.querySelector(".heading");
 
-        let addZeroes = (num) => (num < 10 ? `0${num}` : num);
-
-        if (endTime < todayTime) {
-            clearInterval(i);
-            document.querySelector(
-                ".countdown"
-            ).innerHTML = `<h1 class="display-1 text-center">HAPPY NEW YEAR<br><br>FUCK YOU!</h1>`;
-        } else {
-            let daysLeft = Math.floor(remainingTime / oneDay);
-            let hrsLeft = Math.floor((remainingTime % oneDay) / oneHr);
-            let minsLeft = Math.floor((remainingTime % oneHr) / oneMin);
-            let secsLeft = Math.floor((remainingTime % oneMin) / 1000);
-
-            dayBox.textContent = addZeroes(daysLeft);
-            hrBox.textContent = addZeroes(hrsLeft);
-            minBox.textContent = addZeroes(minsLeft);
-            secBox.textContent = addZeroes(secsLeft);
-        }
+    function addZeroes(num) {
+        return num < 10 ? `0${num}` : num;
     }
 
-    let i = setInterval(countdown, 1000);
-    countdown();
+    function countdown() {
+        const todayDate = new Date();
+        const todayTime = todayDate.getTime();
+        const remainingTime = endTime - todayTime;
+
+        if (remainingTime <= 0) {
+            clearInterval(timerInterval);
+            // Hide countdown and heading, show message
+            countdownContainer.classList.add("d-none");
+            headingContainer.classList.add("d-none");
+            messageContainer.classList.remove("d-none");
+            return;
+        }
+
+        const oneMin = 60 * 1000;
+        const oneHr = 60 * oneMin;
+        const oneDay = 24 * oneHr;
+
+        const daysLeft = Math.floor(remainingTime / oneDay);
+        const hrsLeft = Math.floor((remainingTime % oneDay) / oneHr);
+        const minsLeft = Math.floor((remainingTime % oneHr) / oneMin);
+        const secsLeft = Math.floor((remainingTime % oneMin) / 1000);
+
+        dayBox.textContent = addZeroes(daysLeft);
+        hrBox.textContent = addZeroes(hrsLeft);
+        minBox.textContent = addZeroes(minsLeft);
+        secBox.textContent = addZeroes(secsLeft);
+    }
+
+    const timerInterval = setInterval(countdown, 1000);
+    countdown(); // Initial call to avoid 1s delay
 </script>
