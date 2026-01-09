@@ -1,26 +1,13 @@
-- uuid: bcrhps002
+- uuid: bcrhps001
   title: Rocky Horror
-  date: 2025-12-27
+  date: 2026-01-31
   time: "doors: 11pm, show time: 11:30pm"
   ticketcost: "$15 or $12.50 for Seniors"
   venue: Balboa Theatre
   location: 3630 Balboa St, San Francisco, CA 94121
   link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/17426?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
+    ticket: https://ticketing.uswest.veezi.com/purchase/17878?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
     fb: 
     venue: https://www.balboamovies.com
   movie: rhps
-  special: "Yes, there <em>IS</em> something fun to do between Christmas and New Year’s!"
-- uuid: bcrhps003
-  title: Rocky Horror
-  date: 2025-12-31
-  time: "doors: 11pm, show time: 12:00pm"
-  ticketcost: "$15 or $12.50 for Seniors"
-  venue: Balboa Theatre
-  location: 3630 Balboa St, San Francisco, CA 94121
-  link:
-    ticket: https://ticketing.uswest.veezi.com/purchase/17427?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg
-    fb: 
-    venue: https://www.balboamovies.com
-  movie: rhps
-  special: "🥂 🎉 🎈 🌉  Ring in 2026 with the Bawdy Caste! Join us on Dec. 31 for a countdown to midnight, followed by a special New Year’s performance of RHPS. 🌉 🎈 🎉 🥂"
+  special: 
