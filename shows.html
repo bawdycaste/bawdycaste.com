@@ -4,7 +4,7 @@ layout: main
 <div class="row">
   <div class="col col-12 col-md-3">
     <ul class="list-group">
-      {% for show in site.shows | reverse %}
+      {% for show in site.shows reversed %}
       <li class="list-group-item">
         <a class="link-dark text-uppercase" href="{{ show.url }}">{{ show.date | date: '%b %d, %Y' }} <span class="badge bg-dark ms-1">{{show.category}}</span></a>
       </li>
